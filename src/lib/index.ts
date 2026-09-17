@@ -70,3 +70,25 @@ export {
   type TelemetryConfiguration,
   type TelemetryConsent,
 } from "../services/telemetry";
+
+// Embedding exports — what a host application needs to mount the chat panel
+// inside its own page, pointed at its own agent-server, without the
+// router-driven app shell. Without these the panel is reachable but inert: a
+// host cannot tell the canvas which agent-server to talk to
+// (setRegisteredBackends/setActiveSelection), which conversation it is showing
+// (NavigationProvider), or open the socket that carries events
+// (WebSocketProviderWrapper).
+export { EventHandler } from "../wrapper/event-handler";
+export {
+  NavigationProvider,
+  useNavigation,
+  type NavigationContextValue,
+  type NavigationOptions,
+} from "../context/navigation-context";
+export { WebSocketProviderWrapper } from "../contexts/websocket-provider-wrapper";
+export { default as AgentServerConversationService } from "../api/conversation-service/agent-server-conversation-service.api";
+export {
+  setActiveSelection,
+  setRegisteredBackends,
+} from "../api/backend-registry/active-store";
+export type { Backend, BackendSelection } from "../api/backend-registry/types";
