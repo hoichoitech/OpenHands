@@ -52,4 +52,8 @@ build-fresh/
 # Sourcemaps stay out: they are more than half the artifact, and anyone
 # debugging into the library can build it locally.
 !dist/
+# The build bundles its non-external dependencies into dist/node_modules, so
+# the repo-wide node_modules rule above would otherwise strip exactly the files
+# the emitted imports point at.
+!dist/node_modules/
 dist/**/*.map
