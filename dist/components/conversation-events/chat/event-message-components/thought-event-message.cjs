@@ -1,0 +1,3 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs"),t=require("../../../features/chat/chat-message.cjs");let n=require("react");n=e.__toESM(n,1);let r=require("react/jsx-runtime");function i({event:e,actions:n,isFromPlanningAgent:i=!1}){let a=e.thought.filter(e=>e.type===`text`).map(e=>e.text).join(`
+`);return a?(0,r.jsx)(t.ChatMessage,{type:`agent`,message:a,actions:n,isFromPlanningAgent:i,timestamp:e.timestamp}):null}exports.ThoughtEventMessage=i;
+//# sourceMappingURL=thought-event-message.cjs.map

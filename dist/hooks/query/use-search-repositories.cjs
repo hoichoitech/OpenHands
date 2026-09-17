@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useQuery.cjs"),t=require("../../api/git-service/git-service.api.cjs");function n(n,r,i,a=100){return e.useQuery({queryKey:[`repositories`,`search`,n,r,a],queryFn:async()=>r?(await t.default.searchGitRepositories(n,r,a)).items:[],enabled:!!n&&!!r&&!i,staleTime:1e3*60*5,gcTime:1e3*60*15})}exports.useSearchRepositories=n;
+//# sourceMappingURL=use-search-repositories.cjs.map

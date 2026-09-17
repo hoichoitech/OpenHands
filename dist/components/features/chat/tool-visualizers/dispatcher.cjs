@@ -1,0 +1,2 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs"),t=require("../../../../types/agent-server/type-guards.cjs"),n=require("./index.cjs");let r=require("react");r=e.__toESM(r,1);let i=require("react/jsx-runtime");function a(e,r){if(t.isActionEvent(e)){let t=n.actionVisualizers.get(e.action.kind);if(t)return(0,i.jsx)(t.Body,{action:e})}else if(t.isObservationEvent(e)){let t=n.observationVisualizers.get(e.observation.kind);if(t)return(0,i.jsx)(t.Body,{action:r,observation:e})}return null}exports.resolveVisualizerBody=a;
+//# sourceMappingURL=dispatcher.cjs.map

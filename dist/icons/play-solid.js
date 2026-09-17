@@ -1,0 +1,19 @@
+import "react";
+import { jsx as e } from "react/jsx-runtime";
+//#region src/icons/play-solid.svg?react
+var t = (t) => /* @__PURE__ */ e("svg", {
+	width: 24,
+	height: 24,
+	viewBox: "0 0 24 24",
+	fill: "none",
+	xmlns: "http://www.w3.org/2000/svg",
+	...t,
+	children: /* @__PURE__ */ e("path", {
+		d: "M8 8.37911C8 7.31633 9.15785 6.65415 10.0798 7.18966L16.3139 10.8105C17.2287 11.3419 17.2287 12.6581 16.3139 13.1895L10.0798 16.8103C9.15785 17.3459 8 16.6837 8 15.6209V8.37911Z",
+		fill: "currentColor"
+	})
+});
+//#endregion
+export { t as default };
+
+//# sourceMappingURL=play-solid.js.map

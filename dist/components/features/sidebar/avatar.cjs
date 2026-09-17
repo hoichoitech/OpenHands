@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../node_modules/react-i18next/dist/es/useTranslation.cjs"),t=require("../../../i18n/declaration.cjs");let n=require("react/jsx-runtime");function r({src:r}){let{t:i}=e.useTranslation(`openhands`);return(0,n.jsx)(`img`,{src:r,alt:i(t.I18nKey.AVATAR$ALT_TEXT),className:`w-full h-full rounded-full`})}exports.Avatar=r;
+//# sourceMappingURL=avatar.cjs.map

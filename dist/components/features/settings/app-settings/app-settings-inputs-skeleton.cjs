@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("../input-skeleton.cjs"),t=require("../switch-skeleton.cjs");let n=require("react/jsx-runtime");function r(){return(0,n.jsxs)(`div`,{"data-testid":`app-settings-skeleton`,className:`px-11 py-9 flex flex-col gap-6`,children:[(0,n.jsx)(e.InputSkeleton,{}),(0,n.jsx)(t.SwitchSkeleton,{}),(0,n.jsx)(t.SwitchSkeleton,{})]})}exports.AppSettingsInputsSkeleton=r;
+//# sourceMappingURL=app-settings-inputs-skeleton.cjs.map

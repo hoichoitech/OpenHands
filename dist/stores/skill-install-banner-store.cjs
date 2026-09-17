@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../node_modules/zustand/esm/react.cjs"),t=require("../node_modules/zustand/esm/middleware.cjs");var n={dismissedEventIds:{}},r=e.create()(t.devtools(e=>({...n,dismiss:t=>e(e=>({dismissedEventIds:{...e.dismissedEventIds,...Object.fromEntries(t.map(e=>[e,!0]))}}))}),{name:`SkillInstallBannerStore`}));exports.useSkillInstallBannerStore=r;
+//# sourceMappingURL=skill-install-banner-store.cjs.map

@@ -1,0 +1,134 @@
+import { buildHttpBaseUrl as e } from "../../utils/websocket-url.js";
+import { getActiveBackend as t } from "../backend-registry/active-store.js";
+import { getAgentServerClientOptions as n } from "../agent-server-client-options.js";
+import { isSdkHttpStatusError as r } from "../agent-server-compatibility.js";
+import { isAxiosError as i } from "../../node_modules/axios/index.js";
+import { RemoteWorkspace as a } from "../../node_modules/@openhands/typescript-client/dist/workspace/remote-workspace.js";
+import { callCloudProxy as o } from "../cloud/proxy.js";
+import { mapAnyGitStatusToClientStatus as s } from "../../utils/git-status-mapper.js";
+//#region src/api/git-service/agent-server-git-service.api.ts
+function c(e) {
+	return e.startsWith("/") ? e : `/${e}`;
+}
+async function l(r, i, s, l) {
+	let u = t().backend;
+	if (u.kind === "cloud" && r) {
+		let t = new URLSearchParams({
+			...l,
+			path: c(l.path)
+		});
+		return o({
+			backend: u,
+			method: "GET",
+			hostOverride: e(r),
+			path: `${s}?${t.toString()}`,
+			authMode: "session-api-key",
+			sessionApiKey: i ?? void 0
+		});
+	}
+	return (await new a(n({
+		conversationUrl: r,
+		sessionApiKey: i
+	})).client.get(s, { params: l })).data;
+}
+function u(e) {
+	return r(e, 404) || i(e) && e.response?.status === 404;
+}
+var d = class {
+	static async getGitChanges(e, r, i, l) {
+		let u = t().backend;
+		if (u.kind === "cloud" && e) {
+			let t = new URLSearchParams();
+			t.set("path", c(l));
+			let n = await o({
+				backend: u,
+				method: "GET",
+				path: `/api/v1/app-conversations/${e}/git/changes?${t.toString()}`
+			});
+			if (!Array.isArray(n)) throw Error("Invalid response from runtime - runtime may be unavailable");
+			return n.map((e) => ({
+				status: s(String(e.status)),
+				path: e.path
+			}));
+		}
+		let d = await new a(n({
+			conversationUrl: r,
+			sessionApiKey: i
+		})).gitChanges(l);
+		if (!Array.isArray(d)) throw Error("Invalid response from runtime - runtime may be unavailable");
+		return d.map((e) => ({
+			status: s(String(e.status)),
+			path: e.path
+		}));
+	}
+	static async getGitCommits(e, t, n, r = 50) {
+		try {
+			let i = await l(e, t, "/api/git/commits", {
+				path: n,
+				limit: String(r)
+			});
+			return {
+				commits: (i?.commits ?? []).map((e) => ({
+					sha: e.sha,
+					shortSha: e.short_sha,
+					subject: e.subject,
+					author: e.author,
+					timestamp: e.timestamp
+				})),
+				hasMore: !!i?.has_more
+			};
+		} catch (e) {
+			if (u(e)) return null;
+			throw e;
+		}
+	}
+	static async getCommitChanges(e, t, n, r) {
+		let i = await l(e, t, `/api/git/commits/${encodeURIComponent(r)}/changes`, { path: n });
+		if (!Array.isArray(i)) throw Error("Invalid response from runtime - runtime may be unavailable");
+		return i.map((e) => ({
+			status: s(String(e.status)),
+			path: e.path
+		}));
+	}
+	static async getGitChangeDiff(e, r, i, s, u) {
+		if (u) {
+			let e = await l(r, i, "/api/git/diff", {
+				path: s,
+				commit: u
+			});
+			return {
+				modified: e?.modified ?? "",
+				original: e?.original ?? "",
+				...e?.diff ? { diff: e.diff } : {}
+			};
+		}
+		let d = t().backend;
+		if (d.kind === "cloud" && e) {
+			let t = new URLSearchParams();
+			t.set("path", c(s));
+			let n = await o({
+				backend: d,
+				method: "GET",
+				path: `/api/v1/app-conversations/${e}/git/diff?${t.toString()}`
+			});
+			return {
+				modified: n?.modified ?? "",
+				original: n?.original ?? "",
+				...n?.diff ? { diff: n.diff } : {}
+			};
+		}
+		let f = await new a(n({
+			conversationUrl: r,
+			sessionApiKey: i
+		})).gitDiff(s);
+		return {
+			modified: f.modified ?? "",
+			original: f.original ?? "",
+			...f.diff ? { diff: f.diff } : {}
+		};
+	}
+};
+//#endregion
+export { d as default };
+
+//# sourceMappingURL=agent-server-git-service.api.js.map

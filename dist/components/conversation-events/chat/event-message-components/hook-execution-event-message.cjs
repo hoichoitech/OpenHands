@@ -1,0 +1,1 @@
+require("../../../../_virtual/_rolldown/runtime.cjs"),require("../../../shared/hook-execution-event-message.cjs");

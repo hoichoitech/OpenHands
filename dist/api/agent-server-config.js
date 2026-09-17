@@ -1,0 +1,100 @@
+//#region src/api/agent-server-config.ts
+var e = "workspace/project", t = "__AGENT_CANVAS_LOCK_TO_CLOUD__", n = "all-hands.dev", r = "openhands.dev", i = `app.${n}`, a = r, o = `app.${r}`;
+function s(e) {
+	return e?.trim() || null;
+}
+function c(e) {
+	if (!e) return null;
+	let t = e.trim().replace(/\/$/, "");
+	return t ? /^https?:\/\//i.test(t) ? t : typeof window < "u" ? `${window.location.protocol}//${t}` : `http://${t}` : null;
+}
+function l(e) {
+	if (!e) return null;
+	let t = e.trim().replace(/\/+$/, "");
+	return t ? /^https?:\/\//i.test(t) ? t : `https://${t}` : null;
+}
+function u(e) {
+	let t = e.toLowerCase();
+	return t === i || t === o ? a : t === n ? r : t.endsWith(`.${n}`) ? `${t.slice(0, -13)}${r}` : t;
+}
+function d(e) {
+	let t = l(e);
+	if (!t) return null;
+	try {
+		let e = new URL(t), n = e.port ? `:${e.port}` : "";
+		return `${e.protocol}//${u(e.hostname)}${n}`;
+	} catch {
+		return t.toLowerCase();
+	}
+}
+function f() {
+	let e = h();
+	return !e || typeof window > "u" || !g(window.location.origin, e) ? null : window.location.origin;
+}
+function p() {
+	return c(void 0);
+}
+function m() {
+	let e = s(void 0);
+	if (e) return e;
+	if (typeof window < "u") {
+		let e = window.__AGENT_CANVAS_SESSION_API_KEY__;
+		if (typeof e == "string") return s(e);
+	}
+	return null;
+}
+function h() {
+	let e = l(void 0);
+	if (e) return e;
+	if (typeof window < "u") {
+		let e = window[t];
+		if (typeof e == "string") return l(e);
+	}
+	return null;
+}
+function g(e, t) {
+	let n = d(e), r = d(t);
+	return !n || !r ? !1 : n === r;
+}
+function _() {
+	return f() ? "cookie" : "api-key";
+}
+function v() {
+	return p() || (typeof window < "u" ? window.location.origin : null);
+}
+function y() {
+	return m();
+}
+function b() {
+	return e;
+}
+function x(e, t) {
+	return `${e.replace(/\/+$/, "")}/${t.replace(/-/g, "")}`;
+}
+function S(e) {
+	return x(b(), e);
+}
+function C(t) {
+	return x(e, t);
+}
+function w(e) {
+	let t = c(v()), n = c(e);
+	return !t || !n ? !1 : t === n;
+}
+function T(e, t) {
+	return w(t) ? S(e) : C(e);
+}
+function E(t) {
+	return w(t) ? b() : e;
+}
+function D() {
+	let e = y();
+	return e ? { "X-Session-API-Key": e } : {};
+}
+function O() {
+	return typeof window < "u" && window.__AGENT_CANVAS_AUTH_REQUIRED__ === !0;
+}
+//#endregion
+export { e as DEFAULT_WORKING_DIR, T as buildConversationWorkingDirForBackend, v as getAgentServerBaseUrl, D as getAgentServerHeaders, y as getAgentServerSessionApiKey, b as getAgentServerWorkingDir, f as getCookieAuthCloudHost, _ as getLockedCloudAuthMode, h as getLockedCloudHost, E as getWorkspaceRootForBackend, O as isAuthRequired };
+
+//# sourceMappingURL=agent-server-config.js.map

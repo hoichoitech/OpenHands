@@ -1,0 +1,2 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({inputValue:e,searchMessage:t=`No items found`,emptyMessage:r=`No items available`,testId:i=`dropdown-empty`}){return(0,n.jsx)(`li`,{className:`px-3 py-2 text-[var(--oh-text-secondary)] text-sm rounded-lg mx-0.5 my-0.5`,"data-testid":i,children:e?t:r})}exports.EmptyState=r;
+//# sourceMappingURL=empty-state.cjs.map

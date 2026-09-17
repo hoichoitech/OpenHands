@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=`auth`,t=`session_api_key`;function n(n,r){r&&n.send(JSON.stringify({type:e,[t]:r}))}exports.sendWebSocketAuth=n;
+//# sourceMappingURL=websocket-auth.cjs.map

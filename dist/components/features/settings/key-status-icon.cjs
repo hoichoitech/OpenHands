@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs"),t=require("../../../icons/success.cjs");let n=require("react/jsx-runtime");function r({testId:r,isSet:i}){return(0,n.jsx)(`span`,{"data-testid":r||(i?`set-indicator`:`unset-indicator`),children:(0,n.jsx)(t.default,{className:e.cn(i?`text-success`:`text-danger`)})})}exports.KeyStatusIcon=r;
+//# sourceMappingURL=key-status-icon.cjs.map

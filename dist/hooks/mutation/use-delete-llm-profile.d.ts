@@ -1,0 +1,1 @@
+export declare function useDeleteLlmProfile(): import("@tanstack/react-query").UseMutationResult<import("@openhands/typescript-client").ProfileMutationResponse, import("axios").AxiosError<unknown, any>, string, unknown>;

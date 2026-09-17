@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1),require("react/jsx-runtime");var n=t.default.createContext(null);function r(){let e=t.default.useContext(n);if(!e)throw Error(`useSidebarMobileNav must be used within SidebarMobileNavProvider`);return e}exports.useSidebarMobileNav=r;
+//# sourceMappingURL=sidebar-mobile-nav-context.cjs.map

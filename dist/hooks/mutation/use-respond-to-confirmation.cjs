@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useMutation.cjs"),t=require("../../api/event-service/event-service.api.cjs");var n=()=>e.useMutation({mutationKey:[`respond-to-confirmation`],mutationFn:async({conversationId:e,conversationUrl:n,sessionApiKey:r,accept:i})=>{let a={accept:i};return t.default.respondToConfirmation(e,n,a,r)}});exports.useRespondToConfirmation=n;
+//# sourceMappingURL=use-respond-to-confirmation.cjs.map

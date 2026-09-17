@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("./settings-desktop-sidebar.cjs"),t=require("./settings-mobile-drawer.cjs");let n=require("react/jsx-runtime");function r(r){return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.SettingsDesktopSidebar,{navigationItems:r.navigationItems}),(0,n.jsx)(t.SettingsMobileDrawer,{...r})]})}exports.SettingsNavigation=r;
+//# sourceMappingURL=settings-navigation.cjs.map

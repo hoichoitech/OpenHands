@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t);let n=require("react/jsx-runtime");var r=e=>(0,n.jsx)(`svg`,{width:16,height:16,viewBox:`0 0 16 16`,fill:`none`,xmlns:`http://www.w3.org/2000/svg`,...e,children:(0,n.jsx)(`path`,{d:`M12 4L4 12M4 4L12 12`,stroke:`currentColor`,strokeWidth:1.5,strokeLinecap:`round`,strokeLinejoin:`round`})});exports.default=r;
+//# sourceMappingURL=modal-close.cjs.map

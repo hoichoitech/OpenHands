@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../components/features/browser/browser.cjs");let t=require("react/jsx-runtime");function n(){return(0,t.jsx)(e.BrowserPanel,{})}exports.default=n;
+//# sourceMappingURL=browser-tab.cjs.map

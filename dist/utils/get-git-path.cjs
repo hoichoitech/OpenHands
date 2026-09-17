@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../api/agent-server-config.cjs");function t(t,n){let r=n?.trim();if(r)return r;if(!t)return e.DEFAULT_WORKING_DIR;let i=t.split(`/`);return`${e.DEFAULT_WORKING_DIR}/${i[i.length-1]}`}exports.getGitPath=t;
+//# sourceMappingURL=get-git-path.cjs.map

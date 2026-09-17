@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");function e(e){return e.name?.trim()||void 0}function t(t,n){let r=e(t);return r&&r!==n?.id?r:n?.name?n.name:t.type===`stdio`?r??t.command??``:t.url??``}exports.getInstalledServerTitle=t;
+//# sourceMappingURL=mcp-installed-server-display.cjs.map

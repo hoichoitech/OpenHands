@@ -1,0 +1,2 @@
+require("../../../../../_virtual/_rolldown/runtime.cjs");let e=require("react");function t({children:t,onReady:n}){return(0,e.useLayoutEffect)(()=>{n()},[n]),t}exports.TabReadyNotifier=t;
+//# sourceMappingURL=tab-ready-notifier.cjs.map

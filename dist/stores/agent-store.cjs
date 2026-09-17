@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/agent-state.cjs"),t=require("../node_modules/zustand/esm/react.cjs");var n={curAgentState:e.AgentState.LOADING},r=t.create(e=>({...n,setCurrentAgentState:t=>e({curAgentState:t}),reset:()=>e(n)}));exports.useAgentStore=r;
+//# sourceMappingURL=agent-store.cjs.map

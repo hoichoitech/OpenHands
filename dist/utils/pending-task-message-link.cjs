@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=new Map,t=null;function n(t,n){e.set(t,n)}function r(t){e.delete(t)}function i(e,n){t={fromConversationId:e,toConversationId:n}}function a(e){if(t?.toConversationId!==e)return null;let n=t;return t=null,n}function o(t,n){return n===t?!0:e.get(t)===n}exports.clearPendingTaskMessageLink=r,exports.consumeScheduledPendingTaskMessageReassign=a,exports.linkPendingTaskMessages=n,exports.matchesPendingConversationId=o,exports.schedulePendingTaskMessageReassign=i;
+//# sourceMappingURL=pending-task-message-link.cjs.map

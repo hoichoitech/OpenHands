@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=e=>typeof e.response?.data==`object`&&e.response?.data!==null&&`error`in e.response.data&&typeof e.response?.data?.error==`string`,t=e=>typeof e.response?.data==`object`&&e.response?.data!==null&&`message`in e.response.data&&typeof e.response?.data?.message==`string`;exports.isAxiosErrorWithErrorField=e,exports.isAxiosErrorWithMessageField=t;
+//# sourceMappingURL=type-guards.cjs.map

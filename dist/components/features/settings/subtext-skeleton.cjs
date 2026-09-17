@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t(){return(0,e.jsx)(`div`,{className:`w-[250px] h-[20px] skeleton`})}exports.SubtextSkeleton=t;
+//# sourceMappingURL=subtext-skeleton.cjs.map

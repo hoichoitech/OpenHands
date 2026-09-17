@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../node_modules/lucide-react/dist/esm/icons/arrow-left.cjs");let t=require("react/jsx-runtime");function n({children:n}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.ArrowLeft,{size:20,"aria-hidden":!0}),n]})}exports.BackNavButtonContent=n;
+//# sourceMappingURL=back-nav-button-content.cjs.map

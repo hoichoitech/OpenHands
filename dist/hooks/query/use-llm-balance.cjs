@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useQuery.cjs"),t=require("../../contexts/active-backend-context.cjs"),n=require("../../api/llm-balance-service.cjs");var r=r=>{let{backend:i}=t.useActiveBackend();return e.useQuery({queryKey:[`llm-balance`,i.id,r],queryFn:()=>n.default.getBalance(),enabled:i.kind!==`cloud`&&!!r,staleTime:1/0,gcTime:1e3*60*5,retry:!1,refetchOnWindowFocus:!1})};exports.useLLMBalance=r;
+//# sourceMappingURL=use-llm-balance.cjs.map

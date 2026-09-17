@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=new Set([`md`,`markdown`,`mdx`]);function t(t){let n=t.lastIndexOf(`.`);return n===-1?!1:e.has(t.slice(n+1).toLowerCase())}exports.isMarkdownFilePath=t;
+//# sourceMappingURL=is-markdown-file-path.cjs.map

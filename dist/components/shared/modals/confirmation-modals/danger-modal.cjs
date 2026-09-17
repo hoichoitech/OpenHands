@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("./base-modal.cjs");let t=require("react/jsx-runtime");function n({testId:n,title:r,description:i,buttons:a}){return(0,t.jsx)(e.BaseModal,{testId:n,title:r,description:i,buttons:[{text:a.danger.text,onClick:a.danger.onClick,className:`bg-danger`},{text:a.cancel.text,onClick:a.cancel.onClick,className:`bg-[var(--oh-interactive-selected)]`}]})}exports.DangerModal=n;
+//# sourceMappingURL=danger-modal.cjs.map

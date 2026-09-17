@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../icons/pause.cjs");let t=require("react/jsx-runtime");function n({handleStop:n}){return(0,t.jsx)(`button`,{type:`button`,onClick:n,"data-testid":`stop-button`,className:`cursor-pointer`,children:(0,t.jsx)(e.default,{className:`block max-w-none w-4 h-4 text-current`})})}exports.ChatStopButton=n;
+//# sourceMappingURL=chat-stop-button.cjs.map

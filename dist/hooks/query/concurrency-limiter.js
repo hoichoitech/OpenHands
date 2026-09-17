@@ -1,0 +1,29 @@
+new class {
+	limit;
+	active = 0;
+	queue = [];
+	constructor(e) {
+		this.limit = e;
+	}
+	async run(e, t) {
+		await this.acquire();
+		try {
+			if (t?.aborted) throw t.reason ?? new DOMException("Aborted", "AbortError");
+			return await e();
+		} finally {
+			this.release();
+		}
+	}
+	acquire() {
+		return this.active < this.limit ? (this.active += 1, Promise.resolve()) : new Promise((e) => {
+			this.queue.push(e);
+		});
+	}
+	release() {
+		let e = this.queue.shift();
+		e ? e() : --this.active;
+	}
+}(3);
+//#endregion
+
+//# sourceMappingURL=concurrency-limiter.js.map

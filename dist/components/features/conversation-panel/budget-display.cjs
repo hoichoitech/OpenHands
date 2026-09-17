@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("./budget-progress-bar.cjs"),t=require("./budget-usage-text.cjs");let n=require("react/jsx-runtime");function r({cost:r,maxBudgetPerTask:i}){return r===null||i===null||i<=0?null:(0,n.jsxs)(`div`,{children:[(0,n.jsx)(e.BudgetProgressBar,{currentCost:r,maxBudget:i}),(0,n.jsx)(t.BudgetUsageText,{currentCost:r,maxBudget:i})]})}exports.BudgetDisplay=r;
+//# sourceMappingURL=budget-display.cjs.map

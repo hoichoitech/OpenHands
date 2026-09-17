@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");var e=`conversation-overview-drawer-width`,t=`conversation-overview-drawer-resize-handle`,n=`conversation-overview-drawer`;exports.CONVERSATION_OVERVIEW_DRAWER_RESIZE_HANDLE_TEST_ID=t,exports.CONVERSATION_OVERVIEW_DRAWER_TEST_ID=n,exports.CONVERSATION_OVERVIEW_DRAWER_WIDTH_STORAGE_KEY=e;
+//# sourceMappingURL=conversation-overview-drawer.constants.cjs.map

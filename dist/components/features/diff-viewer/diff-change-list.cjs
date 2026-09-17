@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("./file-diff-viewer.cjs");let t=require("react"),n=require("react/jsx-runtime");function r({changes:r,commit:i}){let[a,o]=(0,t.useState)(null);return(0,n.jsx)(`div`,{"data-testid":`diff-change-list`,className:`w-full flex flex-col`,children:r.map(t=>(0,n.jsx)(e.FileDiffViewer,{path:t.path,type:t.status,commit:i,isExpanded:a===t.path,onToggle:()=>o(e=>e===t.path?null:t.path)},t.path))})}exports.DiffChangeList=r;
+//# sourceMappingURL=diff-change-list.cjs.map

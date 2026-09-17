@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs");let t=require("react/jsx-runtime");function n({src:n,size:r=`small`}){return(0,t.jsx)(`img`,{role:`img`,alt:``,src:n,className:e.cn(`rounded-sm object-cover`,r===`small`&&`w-[62px] h-[62px]`,r===`large`&&`w-[100px] h-[100px]`)})}exports.Thumbnail=n;
+//# sourceMappingURL=thumbnail.cjs.map

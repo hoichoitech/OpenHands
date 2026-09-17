@@ -1,0 +1,2 @@
+require("../../../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t({children:t}){return(0,e.jsx)(`div`,{className:`overflow-hidden flex-grow h-full w-full relative`,children:t})}exports.TabContentArea=t;
+//# sourceMappingURL=tab-content-area.cjs.map

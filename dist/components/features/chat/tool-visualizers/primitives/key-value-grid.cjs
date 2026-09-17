@@ -1,0 +1,2 @@
+const e=require("../../../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({rows:e}){return(0,n.jsx)(`div`,{className:`grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-xs`,children:e.map(({label:e,value:r})=>(0,n.jsxs)(t.default.Fragment,{children:[(0,n.jsx)(`span`,{className:`text-muted`,children:e}),(0,n.jsx)(`span`,{className:`break-all font-mono text-foreground`,children:r})]},e))})}exports.KeyValueGrid=r;
+//# sourceMappingURL=key-value-grid.cjs.map

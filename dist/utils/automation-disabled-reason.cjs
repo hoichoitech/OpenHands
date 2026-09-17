@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../i18n/declaration.cjs");var t=new Set([`user`]),n=new Set([`manual`,`manual_delete`]);function r(e){return!e.enabled&&!!e.disabled_reason}function i(e){let r=e.disabled_reason;if(r&&n.has(r))return!0;let i=e.disabled_detail?.source;return!!(i&&t.has(i))}function a(t,n){return r(t)?i(t)?{text:n(e.I18nKey.AUTOMATIONS$DETAIL$DISABLED_MANUAL)}:{text:t.disabled_reason}:null}exports.getDisablementReasonDisplay=a,exports.hasDisablementReason=r;
+//# sourceMappingURL=automation-disabled-reason.cjs.map

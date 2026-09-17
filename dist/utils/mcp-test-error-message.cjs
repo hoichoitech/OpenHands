@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../i18n/declaration.cjs");function t(t,n,r){switch(n){case`timeout`:return t(e.I18nKey.MCP$TEST_ERROR_TIMEOUT);case`connection`:return t(e.I18nKey.MCP$TEST_ERROR_CONNECTION);case`credentials`:return t(e.I18nKey.MCP$TEST_ERROR_CREDENTIALS,{error:r});default:return t(e.I18nKey.MCP$TEST_ERROR_UNKNOWN,{error:r})}}exports.makeMcpTestErrorMessage=t;
+//# sourceMappingURL=mcp-test-error-message.cjs.map

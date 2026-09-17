@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs");let t=require("react/jsx-runtime");function n({currentCost:n,maxBudget:r}){let i=n/r*100;return(0,t.jsx)(`div`,{className:`relative mt-1 h-1.5 w-full rounded-full bg-tertiary`,children:(0,t.jsx)(`div`,{className:e.cn(`absolute inset-y-0 left-0 rounded-full transition-all duration-300`,i>80?`bg-red-500`:`bg-blue-500`),style:{width:`${Math.min(100,i)}%`}})})}exports.BudgetProgressBar=n;
+//# sourceMappingURL=budget-progress-bar.cjs.map

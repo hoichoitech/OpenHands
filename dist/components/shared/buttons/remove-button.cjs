@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs"),t=require("../../../icons/close.cjs");let n=require("react/jsx-runtime");function r({onClick:r,className:i,"aria-label":a}){return(0,n.jsx)(`button`,{type:`button`,onClick:r,"aria-label":a,className:e.cn(`bg-[var(--oh-muted)] rounded-full w-5 h-5 flex items-center justify-center cursor-pointer`,i),children:(0,n.jsx)(t.default,{width:18,height:18})})}exports.RemoveButton=r;
+//# sourceMappingURL=remove-button.cjs.map

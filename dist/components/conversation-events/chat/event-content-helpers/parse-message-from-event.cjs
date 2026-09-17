@@ -1,0 +1,3 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../../i18n/declaration.cjs"),t=require("../../../../i18n/index.cjs");var n=n=>{let r=n.llm_message;if(!r?.content)return``;let i=``;if(r.content&&(Array.isArray(r.content)?i=r.content.filter(e=>e.type===`text`).map(e=>e.text).join(`
+`):typeof r.content==`string`&&(i=r.content)),!(Array.isArray(r.content)&&r.content.some(e=>e.type===`image`)))return i;let a=t.default.t(e.I18nKey.CHAT_INTERFACE$AUGMENTED_PROMPT_FILES_TITLE);return i.split(a)[0]};exports.parseMessageFromEvent=n;
+//# sourceMappingURL=parse-message-from-event.cjs.map

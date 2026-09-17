@@ -1,0 +1,1 @@
+export declare function useActivateLlmProfile(): import("@tanstack/react-query").UseMutationResult<import("@openhands/typescript-client").ActivateProfileResponse, import("axios").AxiosError<unknown, any>, string, unknown>;

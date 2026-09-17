@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=`https://docs.openhands.dev/overview/skills/adding#adding-new-skills`,t=`add-skill`,n=`/add-skill https://github.com/OpenHands/extensions/tree/main/skills/codereview`;exports.ADD_SKILL_DOCS_URL=e,exports.ADD_SKILL_EXAMPLE_COMMAND=n,exports.ADD_SKILL_SKILL_NAME=t;
+//# sourceMappingURL=skills-docs.cjs.map

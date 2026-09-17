@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useMutation.cjs"),t=require("../../api/mcp-service/mcp-service.api.cjs");function n(){return e.useMutation({mutationFn:e=>t.default.testServer(e)})}exports.useTestMcpServer=n;
+//# sourceMappingURL=use-test-mcp-server.cjs.map

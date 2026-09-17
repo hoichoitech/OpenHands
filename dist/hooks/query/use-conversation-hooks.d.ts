@@ -1,0 +1,1 @@
+export declare const useConversationHooks: () => import("@tanstack/react-query").UseQueryResult<NoInfer<import("../../api/conversation-service/agent-server-conversation-service.types").HookEvent[]>, import("axios").AxiosError<unknown, any>>;

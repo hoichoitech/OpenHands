@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("./tool-item.cjs");let t=require("react/jsx-runtime");function n({tools:n,expandedTools:r,onToggleTool:i}){return(0,t.jsx)(`div`,{className:`divide-y divide-[var(--oh-border)]`,children:n.map((n,a)=>(0,t.jsx)(e.ToolItem,{tool:n,index:a,isExpanded:r[a]||!1,onToggle:i},a))})}exports.ToolsList=n;
+//# sourceMappingURL=tools-list.cjs.map

@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=require("../node_modules/zustand/esm/react.cjs").create()((e,t)=>({byTaskId:{},setPendingTaskAttachments:(t,n)=>e(e=>({byTaskId:{...e.byTaskId,[t]:n}})),consumePendingTaskAttachments:n=>{let r=t().byTaskId[n];return r?(e(e=>{let{[n]:t,...r}=e.byTaskId;return{byTaskId:r}}),r):null}}));function t(t){return e.getState().consumePendingTaskAttachments(t)}exports.consumePendingTaskAttachments=t;
+//# sourceMappingURL=pending-task-attachments-store.cjs.map

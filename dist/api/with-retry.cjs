@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");async function e(e,t=3,n=500){for(let r=0;r<t;r+=1)try{return await e()}catch(e){if(r>=t-1)throw e;let i=n*2**r;await new Promise(e=>{setTimeout(e,i)})}throw Error(`Retry attempts exhausted`)}exports.withRetry=e;
+//# sourceMappingURL=with-retry.cjs.map

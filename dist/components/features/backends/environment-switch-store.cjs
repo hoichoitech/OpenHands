@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");var e=new Set,t=null;function n(t){typeof document<`u`&&(t.visible?document.body.setAttribute(`data-environment-switching`,`true`):document.body.removeAttribute(`data-environment-switching`)),e.forEach(e=>e())}function r(e){n({visible:!0,target:e}),t&&clearTimeout(t),t=setTimeout(()=>{n({visible:!1,target:``}),t=null},980)}exports.triggerEnvironmentSwitch=r;
+//# sourceMappingURL=environment-switch-store.cjs.map

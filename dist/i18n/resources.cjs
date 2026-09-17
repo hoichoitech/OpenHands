@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=(e=>{let t={};return Object.entries(e).forEach(([e,n])=>{Object.entries(n).forEach(([n,r])=>{typeof r==`string`&&(t[n]||(t[n]={}),t[n][e]=r)})}),t})(require("./translation.cjs").default);exports.translationResources=e;
+//# sourceMappingURL=resources.cjs.map

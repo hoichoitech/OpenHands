@@ -1,0 +1,2 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs"),t=require("../../../../types/agent-server/type-guards.cjs"),n=require("../../../features/chat/error-message.cjs");let r=require("react");r=e.__toESM(r,1);let i=require("react/jsx-runtime");function a({event:e}){return t.isAgentErrorEvent(e)?(0,i.jsx)(n.ErrorMessage,{errorId:e.id,defaultMessage:e.error}):null}exports.ErrorEventMessage=a;
+//# sourceMappingURL=error-event-message.cjs.map

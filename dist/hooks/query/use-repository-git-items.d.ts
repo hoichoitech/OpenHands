@@ -1,0 +1,3 @@
+import type { Provider } from "#/types/settings";
+export declare function useRepositoryPullRequests(repository: string | null | undefined, provider: Provider | null | undefined): import("@tanstack/react-query").UseQueryResult<NoInfer<import("#/api/git-provider-items-service").GitProviderItem[]>, import("axios").AxiosError<unknown, any>>;
+export declare function useRepositoryIssues(repository: string | null | undefined, provider: Provider | null | undefined): import("@tanstack/react-query").UseQueryResult<NoInfer<import("#/api/git-provider-items-service").GitProviderItem[]>, import("axios").AxiosError<unknown, any>>;

@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=function(e){return e.PENDING=`PENDING`,e.RUNNING=`RUNNING`,e.COMPLETED=`COMPLETED`,e.FAILED=`FAILED`,e.CANCELLED=`CANCELLED`,e.SKIPPED=`SKIPPED`,e}({});exports.AutomationRunStatus=e;
+//# sourceMappingURL=automation.cjs.map

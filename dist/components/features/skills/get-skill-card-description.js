@@ -1,0 +1,34 @@
+//#region src/components/features/skills/get-skill-card-description.ts
+var e = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?/;
+function t(e) {
+	let t = e.match(/^description:\s*\|\s*\r?\n((?:[ \t].*(?:\r?\n|$))+)/m);
+	if (t) return t[1].replace(/^[ \t]+/gm, "").trim();
+	let n = e.match(/^description:\s*['"](.+?)['"]\s*$/m);
+	if (n) return n[1].trim();
+	let r = e.match(/^description:\s*(.+)\s*$/m);
+	return r ? r[1].trim() : null;
+}
+function n(t) {
+	let n = t.match(e);
+	return n ? t.slice(n[0].length).trim() : t.trim();
+}
+function r(e) {
+	let t = e.replace(/^#+\s+[^\n]+\n+/, "").trim();
+	return t.split(/\n\s*\n/).map((e) => e.replace(/\s+/g, " ").trim()).find((e) => e.length > 0) ?? t.replace(/\s+/g, " ").trim();
+}
+function i(i) {
+	let a = i.description?.trim();
+	if (a) return a;
+	let o = i.content?.trim();
+	if (!o) return "";
+	let s = o.match(e);
+	if (s) {
+		let e = t(s[1]);
+		if (e) return e;
+	}
+	return r(n(o));
+}
+//#endregion
+export { i as getSkillCardDescription };
+
+//# sourceMappingURL=get-skill-card-description.js.map

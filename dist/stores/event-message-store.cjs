@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=require("../node_modules/zustand/esm/react.cjs").create(e=>({submittedEventIds:[],addSubmittedEventId:t=>e(e=>({submittedEventIds:[...e.submittedEventIds,t]})),removeSubmittedEventId:t=>e(e=>({submittedEventIds:e.submittedEventIds.filter(e=>e!==t)}))}));exports.useEventMessageStore=e;
+//# sourceMappingURL=event-message-store.cjs.map

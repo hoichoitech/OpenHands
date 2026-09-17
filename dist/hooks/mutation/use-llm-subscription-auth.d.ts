@@ -1,0 +1,3 @@
+export declare function useStartOpenAISubscriptionLogin(): import("@tanstack/react-query").UseMutationResult<import("#/api/llm-subscription-service").LLMSubscriptionDeviceChallenge, import("axios").AxiosError<unknown, any>, void, unknown>;
+export declare function usePollOpenAISubscriptionLogin(): import("@tanstack/react-query").UseMutationResult<import("#/api/llm-subscription-service").LLMSubscriptionStatus, import("axios").AxiosError<unknown, any>, string, unknown>;
+export declare function useLogoutOpenAISubscription(): import("@tanstack/react-query").UseMutationResult<import("#/api/llm-subscription-service").LLMSubscriptionStatus, import("axios").AxiosError<unknown, any>, void, unknown>;

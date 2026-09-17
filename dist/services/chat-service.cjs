@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/action-type.cjs");function t(t,n,r,i){return{action:e.default.MESSAGE,args:{content:t,image_urls:n,file_urls:r,timestamp:i}}}exports.createChatMessage=t;
+//# sourceMappingURL=chat-service.cjs.map

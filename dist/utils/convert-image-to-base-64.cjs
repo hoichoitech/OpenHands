@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=e=>new Promise((t,n)=>{let r=new FileReader;r.onloadend=()=>{t(r.result)},r.onerror=n,r.readAsDataURL(e)});exports.convertImageToBase64=e;
+//# sourceMappingURL=convert-image-to-base-64.cjs.map

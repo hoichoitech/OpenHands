@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("./sidebar-onboarding-checklist-storage.cjs");let t=require("react");function n(){return(0,t.useSyncExternalStore)(e.subscribeSidebarOnboardingChecklistDismissed,e.getSidebarOnboardingChecklistDismissedSnapshot,()=>!1)}exports.useSidebarOnboardingChecklistDismissed=n;
+//# sourceMappingURL=use-sidebar-onboarding-checklist-dismissed.cjs.map

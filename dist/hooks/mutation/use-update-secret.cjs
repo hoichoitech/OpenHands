@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useMutation.cjs"),t=require("../../api/secrets-service.cjs");var n=()=>e.useMutation({mutationFn:({secretToEdit:e,name:n,description:r,value:i})=>t.SecretsService.updateSecret(e,n,r,i)});exports.useUpdateSecret=n;
+//# sourceMappingURL=use-update-secret.cjs.map

@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs"),t=require("../api/backend-registry/url-selection.cjs"),n=require("../api/backend-registry/active-store.cjs"),r=require("../contexts/active-backend-context.cjs");let i=require("react");i=e.__toESM(i,1);function a(){let e=r.useActiveBackend();return i.default.useCallback(r=>n.isNoBackend(e.backend)?r:t.withBackendSelectionParams(r,e),[e])}exports.useBackendScopedPath=a;
+//# sourceMappingURL=use-backend-scoped-path.cjs.map

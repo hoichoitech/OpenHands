@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../i18n/declaration.cjs"),t=require("../node_modules/@openhands/typescript-client/dist/client/agent-server-compatibility.cjs");require("../node_modules/@openhands/typescript-client/dist/clients.cjs");function n(n,r){return t.isAgentServerVersionError(n)?r(e.I18nKey.HOME$WORKSPACES_UNSUPPORTED_AGENT_SERVER,{actualVersion:n.actualVersion,requiredVersion:n.requiredVersion}):null}exports.getWorkspacesUnsupportedMessage=n;
+//# sourceMappingURL=workspaces-compatibility.cjs.map

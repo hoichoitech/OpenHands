@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../backend-registry/active-store.cjs"),t=require("./proxy.cjs");function n(){let t=e.getActiveBackend().backend;if(t.kind!==`cloud`)throw Error(`Cloud sandboxes call requires a cloud backend.`);return t}async function r(e){if(e.length===0)return[];let r=n(),i=new URLSearchParams;for(let t of e)i.append(`id`,t);return await t.callCloudProxy({backend:r,method:`GET`,path:`/api/v1/sandboxes?${i.toString()}`})??[]}exports.batchGetCloudSandboxes=r;
+//# sourceMappingURL=sandbox-service.api.cjs.map

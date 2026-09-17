@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=`var(--oh-status-success)`,t=`var(--oh-status-error)`;exports.OH_STATUS_ERROR_COLOR=t,exports.OH_STATUS_SUCCESS_COLOR=e;
+//# sourceMappingURL=status-colors.cjs.map

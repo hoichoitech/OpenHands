@@ -1,0 +1,5 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../types/agent-server/type-guards.cjs");var t=e=>e.thought.filter(e=>e.type===`text`).map(e=>e.text).join(`
+`),n=e=>e.reasoning_content?e.reasoning_content:e.thinking_blocks?.length?e.thinking_blocks.filter(e=>e.type===`thinking`).map(e=>e.thinking).join(`
+
+`):``,r=e=>t(e).trim().length>0,i=(e,t)=>{let n=e.replace(/^\s+/,``);if(!n.startsWith(`<think>`))return{reasoning:``,message:e};let r=n.slice(7),i=r.indexOf(`</think>`);return i===-1?t?.streaming?{reasoning:r.trim(),message:``}:{reasoning:``,message:e}:{reasoning:r.slice(0,i).trim(),message:r.slice(i+8).trim()}},a=(t,n)=>{if(e.isActionEvent(t))return t.action.kind===`ThinkAction`?null:r(t)?t:null;if(e.isObservationEvent(t)){let i=n.find(n=>e.isActionEvent(n)&&n.id===t.action_id);return!i||i.action.kind===`ThinkAction`?null:r(i)?i:null}return null};exports.getActionThoughtText=t,exports.getReasoningContent=n,exports.getThoughtSourceAction=a,exports.splitInlineThink=i;
+//# sourceMappingURL=event-thought-helpers.cjs.map

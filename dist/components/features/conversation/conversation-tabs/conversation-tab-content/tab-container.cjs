@@ -1,0 +1,2 @@
+require("../../../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t({children:t}){return(0,e.jsx)(`div`,{className:`flex flex-col h-full w-full`,children:t})}exports.TabContainer=t;
+//# sourceMappingURL=tab-container.cjs.map

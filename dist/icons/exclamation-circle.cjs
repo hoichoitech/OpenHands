@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t);let n=require("react/jsx-runtime");var r=e=>(0,n.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,fill:`none`,viewBox:`0 0 24 24`,stroke:`currentColor`,strokeWidth:1.5,...e,children:(0,n.jsx)(`path`,{strokeLinecap:`round`,strokeLinejoin:`round`,d:`M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z`})});exports.default=r;
+//# sourceMappingURL=exclamation-circle.cjs.map

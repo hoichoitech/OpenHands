@@ -1,0 +1,1 @@
+require("../../_virtual/_rolldown/runtime.cjs"),require("../../api/backend-registry/active-store.cjs"),require("../../contexts/active-backend-context.cjs"),require("../../api/canvas-extensions-service.cjs");

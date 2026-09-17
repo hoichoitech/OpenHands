@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t);let n=require("react/jsx-runtime");var r=e=>(0,n.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,...e,children:(0,n.jsx)(`path`,{fillRule:`evenodd`,clipRule:`evenodd`,d:`M15.3235 10.9352L11.5016 14.2111L7.67969 10.9352L8.6152 9.84375L11.5016 12.3178L14.388 9.84375L15.3235 10.9352Z`,fill:`currentColor`})});exports.default=r;
+//# sourceMappingURL=chevron-down-small.cjs.map

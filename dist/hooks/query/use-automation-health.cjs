@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useQuery.cjs"),t=require("../../contexts/active-backend-context.cjs"),n=require("../../api/automation-service/automation-service.api.cjs");var r=[`automation-health`];function i(){let i=t.useActiveBackend();return e.useQuery({queryKey:[...r,i.backend.id,i.orgId],queryFn:()=>n.default.checkHealth(),staleTime:30*1e3,retry:!1})}exports.useAutomationHealth=i;
+//# sourceMappingURL=use-automation-health.cjs.map

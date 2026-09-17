@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1),require("react/jsx-runtime"),t.default.createContext(null);
+//# sourceMappingURL=settings-section-header-context.cjs.map

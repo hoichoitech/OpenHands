@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");var r=t.default.createContext({currentPath:`/`,conversationId:null,isNavigating:!1,navigate:()=>{}});function i({value:e,children:t}){return(0,n.jsx)(r.Provider,{value:e,children:t})}function a(){return t.default.useContext(r)}exports.NavigationProvider=i,exports.useNavigation=a;
+//# sourceMappingURL=navigation-context.cjs.map

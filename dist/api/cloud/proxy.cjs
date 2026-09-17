@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("./client.cjs");async function t(t){return(t.hostOverride?e.createCloudClientForRuntime(t.backend):e.createCloudClient(t.backend)).request({method:t.method,path:t.path,body:t.body,headers:t.headers,timeoutSeconds:t.timeoutSeconds,hostOverride:t.hostOverride,authMode:t.authMode===void 0||t.authMode===`bearer`?`bearer`:t.authMode,sessionApiKey:t.sessionApiKey,responseType:t.responseType})}exports.callCloudProxy=t;
+//# sourceMappingURL=proxy.cjs.map

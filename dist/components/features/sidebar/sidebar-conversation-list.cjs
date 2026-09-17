@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../conversation-panel/conversation-panel.cjs");let t=require("react/jsx-runtime");function n({collapsed:n}){return n?null:(0,t.jsx)(`div`,{className:`flex flex-col flex-1 min-h-0`,children:(0,t.jsx)(`div`,{className:`flex min-h-0 w-full flex-1 flex-col`,children:(0,t.jsx)(e.ConversationPanel,{})})})}exports.SidebarConversationList=n;
+//# sourceMappingURL=sidebar-conversation-list.cjs.map

@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");let e=require("react");function t(t,n){let[r,i]=(0,e.useState)(t);return(0,e.useEffect)(()=>{let e=setTimeout(()=>i(t),n);return()=>clearTimeout(e)},[t,n]),r}exports.useDebounce=t;
+//# sourceMappingURL=use-debounce.cjs.map

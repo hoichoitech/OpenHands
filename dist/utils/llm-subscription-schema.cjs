@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../constants/llm-subscription.cjs");var t=`llm`;function n(n){if(!n?.sections)return n;let r=!1,i=n.sections.map(n=>{if(n.key!==t)return n;let i=new Set(n.fields.map(e=>e.key)),a=e.LLM_SUBSCRIPTION_SCHEMA_FIELDS.filter(e=>!i.has(e.key));return a.length===0?n:(r=!0,{...n,fields:[...n.fields,...a]})});return r?{...n,sections:i}:n}exports.withLlmSubscriptionSchemaFields=n;
+//# sourceMappingURL=llm-subscription-schema.cjs.map

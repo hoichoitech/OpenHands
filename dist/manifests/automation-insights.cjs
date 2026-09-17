@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/automation.cjs");new Set([e.AutomationRunStatus.COMPLETED,e.AutomationRunStatus.FAILED]);function t(e){return e===null||!Number.isFinite(e)?`—`:e<6e4?`${Math.max(1,Math.round(e/1e3))}s`:e<36e5?`${Math.max(1,Math.round(e/6e4))}m`:`${(e/36e5).toFixed(1)}h`}exports.formatCompactDuration=t;
+//# sourceMappingURL=automation-insights.cjs.map

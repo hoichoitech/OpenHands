@@ -43,3 +43,13 @@ build-fresh/
 /resources/bin/
 # Downloaded Node.js distribution (populated by `npm run download-node` before packaging)
 /resources/node/
+
+# ── logline fork ─────────────────────────────────────────────────
+# The library build is committed so a consumer can depend on this repo
+# straight from git and get a finished package — no build at install time,
+# which would otherwise couple every consumer's install to this repo's full
+# dev toolchain and node version. Rebuild with `npm run build:lib`.
+# Sourcemaps stay out: they are more than half the artifact, and anyone
+# debugging into the library can build it locally.
+!dist/
+dist/**/*.map

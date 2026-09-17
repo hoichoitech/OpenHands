@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);var n=(e,n)=>{let r=t.default.useRef(null),i=t.default.useRef(e);return t.default.useEffect(()=>{i.current=e},[e]),t.default.useEffect(()=>{let e=e=>{let t=e.target;r.current&&(r.current.contains(t)||n?.current?.contains(t)||i.current())};return document.addEventListener(`click`,e),()=>document.removeEventListener(`click`,e)},[n]),r};exports.useClickOutsideElement=n;
+//# sourceMappingURL=use-click-outside-element.cjs.map

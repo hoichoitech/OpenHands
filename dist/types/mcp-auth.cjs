@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=[`none`,`api_key`,`bearer`,`basic`,`header`,`oauth2`],t=e=>!!e&&typeof e==`object`&&!Array.isArray(e),n=n=>t(n)&&typeof n.strategy==`string`&&e.includes(n.strategy);exports.isMcpAuthCredential=n;
+//# sourceMappingURL=mcp-auth.cjs.map

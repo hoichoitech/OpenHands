@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t({count:t}){return(0,e.jsx)(`span`,{className:`ml-2 inline-flex items-center justify-center rounded-full bg-surface-raised px-2 py-0.5 text-xs text-foreground`,children:t})}exports.StatusBadge=t;
+//# sourceMappingURL=status-badge.cjs.map

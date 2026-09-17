@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useQuery.cjs");var t=(t=10)=>e.useQuery({queryKey:[`start-tasks`,`search`,t],queryFn:()=>[],select:e=>e.filter(e=>e.status!==`READY`&&e.status!==`ERROR`)});exports.useStartTasks=t;
+//# sourceMappingURL=use-start-tasks.cjs.map

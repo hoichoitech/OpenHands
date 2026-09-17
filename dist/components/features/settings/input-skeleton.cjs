@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t(){return(0,e.jsxs)(`div`,{className:`flex flex-col gap-2.5`,children:[(0,e.jsx)(`div`,{className:`w-[70px] h-[20px] skeleton`}),(0,e.jsx)(`div`,{className:`w-full min-w-0 h-[40px] skeleton`})]})}exports.InputSkeleton=t;
+//# sourceMappingURL=input-skeleton.cjs.map

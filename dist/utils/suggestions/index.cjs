@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("./repo-suggestions.cjs"),t=require("./non-repo-suggestions.cjs");var n={repo:e.REPO_SUGGESTIONS,"non-repo":t.NON_REPO_SUGGESTIONS};exports.SUGGESTIONS=n;
+//# sourceMappingURL=index.cjs.map

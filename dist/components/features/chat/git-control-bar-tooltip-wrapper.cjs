@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../shared/buttons/styled-tooltip.cjs");let t=require("react/jsx-runtime");function n({children:n,tooltipMessage:r,testId:i,shouldShowTooltip:a}){return a?(0,t.jsx)(e.StyledTooltip,{content:r,placement:`top`,showArrow:!0,tooltipClassName:`bg-white text-black`,children:(0,t.jsx)(`span`,{"data-testid":i,className:`hover:opacity-100`,children:n})}):n}exports.GitControlBarTooltipWrapper=n;
+//# sourceMappingURL=git-control-bar-tooltip-wrapper.cjs.map

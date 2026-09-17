@@ -1,0 +1,2 @@
+import { type CreateProviderConnectionRequest } from "#/api/provider-connections-service/provider-connections-service.api";
+export declare function useCreateProviderConnection(): import("@tanstack/react-query").UseMutationResult<import("#/api/provider-connections-service/provider-connections-service.api").ProviderConnection, import("axios").AxiosError<unknown, any>, CreateProviderConnectionRequest, unknown>;

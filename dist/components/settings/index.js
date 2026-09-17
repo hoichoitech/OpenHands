@@ -1,0 +1,11 @@
+import "../features/settings/upgrade-button.js";
+import "../features/settings/banner-message.js";
+import "../features/settings/upgrade-banner.js";
+import "../features/settings/mobile-header.js";
+import "../features/settings/settings-navigation.js";
+import "../features/settings/settings-layout.js";
+import "../features/settings/index.js";
+import "../../routes/app-settings.js";
+import "../../routes/llm-settings.js";
+import "../../routes/mcp-settings.js";
+import "../../routes/secrets-settings.js";

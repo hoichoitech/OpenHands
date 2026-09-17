@@ -1,0 +1,29 @@
+//#region src/utils/conversation-metrics.ts
+function e(e) {
+	if (!e?.usage_to_metrics) return {
+		accumulated_cost: 0,
+		max_budget_per_task: null,
+		accumulated_token_usage: null
+	};
+	let t = 0, n = null, r = null;
+	for (let i of Object.values(e.usage_to_metrics)) t += i.accumulated_cost, n === null && i.max_budget_per_task !== null && (n = i.max_budget_per_task), i.accumulated_token_usage && (r = r === null ? { ...i.accumulated_token_usage } : {
+		prompt_tokens: r.prompt_tokens + i.accumulated_token_usage.prompt_tokens,
+		completion_tokens: r.completion_tokens + i.accumulated_token_usage.completion_tokens,
+		cache_read_tokens: r.cache_read_tokens + i.accumulated_token_usage.cache_read_tokens,
+		cache_write_tokens: r.cache_write_tokens + i.accumulated_token_usage.cache_write_tokens,
+		context_window: Math.max(r.context_window, i.accumulated_token_usage.context_window),
+		per_turn_token: Math.max(r.per_turn_token, i.accumulated_token_usage.per_turn_token)
+	});
+	return {
+		accumulated_cost: t,
+		max_budget_per_task: n,
+		accumulated_token_usage: r
+	};
+}
+function t(t) {
+	return e(t.stats);
+}
+//#endregion
+export { e as combineUsageMetrics, t as getCombinedMetrics };
+
+//# sourceMappingURL=conversation-metrics.js.map

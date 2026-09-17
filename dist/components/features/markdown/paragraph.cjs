@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({children:e}){return(0,n.jsx)(`p`,{className:`py-1.5 leading-6 first:pt-0 last:pb-0`,children:e})}exports.paragraph=r;
+//# sourceMappingURL=paragraph.cjs.map

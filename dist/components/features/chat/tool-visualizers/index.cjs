@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("./bash/bash.cjs"),t=require("./file-editor/file-editor.cjs"),n=require("./search/search.cjs"),r=require("./task/task.cjs");var i=[e.bashVisualizer,t.fileEditorVisualizer,n.searchVisualizer,r.taskVisualizer],a=e=>new Map(i.flatMap(t=>(e(t)??[]).map(e=>[e,t]))),o=a(e=>e.actionKinds),s=a(e=>e.observationKinds);exports.actionVisualizers=o,exports.observationVisualizers=s;
+//# sourceMappingURL=index.cjs.map

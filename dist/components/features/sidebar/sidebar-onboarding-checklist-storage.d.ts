@@ -1,0 +1,10 @@
+export declare function readSidebarOnboardingChecklistDismissed(): boolean;
+export declare function getSidebarOnboardingChecklistDismissedSnapshot(): boolean;
+export declare function subscribeSidebarOnboardingChecklistDismissed(onStoreChange: () => void): () => void;
+export declare function writeSidebarOnboardingChecklistDismissed(dismissed: boolean): void;
+export declare function readSidebarOnboardingChecklistMinimized(): boolean;
+export declare function writeSidebarOnboardingChecklistMinimized(minimized: boolean): void;
+export declare function readSidebarOnboardingChecklistCustomizeExplored(): boolean;
+export declare function writeSidebarOnboardingChecklistCustomizeExplored(explored: boolean): void;
+export declare function readSidebarOnboardingChecklistSlackJoined(): boolean;
+export declare function writeSidebarOnboardingChecklistSlackJoined(joined: boolean): void;

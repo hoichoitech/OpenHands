@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/agent-state.cjs"),t=require("../utils/status.cjs"),n=require("./query/use-active-conversation.cjs"),r=require("./use-agent-state.cjs");var i=({allowAgentError:i=!1}={})=>{let{data:a}=n.useActiveConversation(),{curAgentState:o}=r.useAgentState(),s=i?e.RUNTIME_STARTING_STATES:e.RUNTIME_INACTIVE_STATES;return t.isExecutionActive(a?.execution_status)&&!s.includes(o)};exports.useRuntimeIsReady=i;
+//# sourceMappingURL=use-runtime-is-ready.cjs.map

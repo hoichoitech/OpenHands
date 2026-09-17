@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");var e=`files-tab-tree-width`,t=`files-tab-tree-resize-handle`;exports.FILES_TAB_TREE_RESIZE_HANDLE_TEST_ID=t,exports.FILES_TAB_TREE_WIDTH_STORAGE_KEY=e;
+//# sourceMappingURL=files-tab-tree.constants.cjs.map

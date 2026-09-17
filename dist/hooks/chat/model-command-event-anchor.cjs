@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../stores/use-event-store.cjs"),t=require("../../components/conversation-events/chat/event-content-helpers/should-render-event.cjs");var n=()=>{let{uiEvents:n}=e.useEventStore.getState();for(let e=n.length-1;e>=0;--e){let r=n[e];if(t.shouldRenderEvent(r))return String(r.id)}return null};exports.getLastRenderableEventId=n;
+//# sourceMappingURL=model-command-event-anchor.cjs.map

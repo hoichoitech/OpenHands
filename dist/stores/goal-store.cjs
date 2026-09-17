@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../node_modules/zustand/esm/react.cjs"),t=require("../node_modules/zustand/esm/middleware.cjs");var n={statusByConversation:{}},r=e.create()(t.devtools(e=>({...n,setStatus:(t,n)=>e(e=>({statusByConversation:{...e.statusByConversation,[t]:n}}))}),{name:`GoalStore`}));exports.useGoalStore=r;
+//# sourceMappingURL=goal-store.cjs.map

@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/lucide-react/dist/esm/icons/x.cjs");let t=require("react/jsx-runtime");function n({onClear:n}){return(0,t.jsx)(`button`,{type:`button`,"data-testid":`dropdown-clear`,onClick:n,"aria-label":`Clear selection`,className:`text-white hover:text-[var(--oh-text-tertiary)]`,children:(0,t.jsx)(e.X,{size:14})})}exports.ClearButton=n;
+//# sourceMappingURL=clear-button.cjs.map

@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useMutation.cjs"),t=require("../../api/secrets-service.cjs");var n=()=>e.useMutation({mutationFn:e=>t.SecretsService.deleteSecret(e)});exports.useDeleteSecret=n;
+//# sourceMappingURL=use-delete-secret.cjs.map

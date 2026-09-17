@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");function e(e){switch(e){case`ADDED`:case`added`:return`A`;case`DELETED`:case`deleted`:return`D`;case`UPDATED`:case`modified`:return`M`;case`MOVED`:case`renamed`:return`R`;default:return`M`}}exports.mapAnyGitStatusToClientStatus=e;
+//# sourceMappingURL=git-status-mapper.cjs.map

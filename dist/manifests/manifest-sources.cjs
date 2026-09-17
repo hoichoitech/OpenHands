@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../node_modules/@openhands/extensions/automations/index.cjs");var t=require("./manifest-registry.cjs").createSetupRegistry(e.default),n=e.automations_exports,r=`AUTOMATION_INTERFACE`in n?n.AUTOMATION_INTERFACE:void 0;exports.AUTOMATION_INTERFACE_CANDIDATE=r,exports.SETUP_REGISTRY=t;
+//# sourceMappingURL=manifest-sources.cjs.map

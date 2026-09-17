@@ -1,0 +1,2 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({isError:e,message:t=`Failed to load data`,testId:r=`dropdown-error`}){return e?(0,n.jsx)(`div`,{className:`text-red-500 text-sm mt-1`,"data-testid":r,children:t}):null}exports.ErrorMessage=r;
+//# sourceMappingURL=error-message.cjs.map

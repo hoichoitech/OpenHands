@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../utils/utils.cjs"),t=require("../../icons/loading-outer.cjs");let n=require("react/jsx-runtime");function r({size:r,className:i,outerClassName:a}){let o=r===`small`?`w-[25px] h-[25px]`:`w-[50px] h-[50px]`;return(0,n.jsx)(`div`,{"data-testid":`loading-spinner`,className:e.cn(`relative`,o,i),children:(0,n.jsx)(t.default,{className:e.cn(`absolute animate-spin`,o,a)})})}exports.LoadingSpinner=r;
+//# sourceMappingURL=loading-spinner.cjs.map

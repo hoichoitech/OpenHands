@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs");let t=require("react/jsx-runtime");function n({message:n,className:r}){return(0,t.jsx)(`p`,{className:e.cn(`text-xs font-medium text-black`,r),children:n})}exports.BannerMessage=n;
+//# sourceMappingURL=banner-message.cjs.map

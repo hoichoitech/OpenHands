@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs"),t=require("../../../utils/dropdown-classes.cjs");let n=require("react/jsx-runtime");function r({children:r,testId:i,onClick:a,isDisabled:o,className:s,ref:c}){return(0,n.jsx)(`button`,{ref:c,"data-testid":i||`context-menu-list-item`,type:`button`,onClick:a,disabled:o,className:e.cn(t.dropdownMenuRowForegroundClassName,`text-nowrap`,s),children:r})}exports.ContextMenuListItem=r;
+//# sourceMappingURL=context-menu-list-item.cjs.map

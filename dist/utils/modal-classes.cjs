@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("./utils.cjs");var t=e.cn(`text-xl leading-6 -tracking-[0.01em] font-medium text-[var(--oh-modal-title-foreground)]`),n=e.cn(`text-sm font-medium text-[var(--oh-modal-title-foreground)]`),r=e.cn(`text-lg font-medium text-[var(--oh-modal-title-foreground)]`),i=r;exports.modalTitleClassName=t,exports.modalTitleLgClassName=r,exports.modalTitleLgMediumClassName=i,exports.modalTitleSmClassName=n;
+//# sourceMappingURL=modal-classes.cjs.map

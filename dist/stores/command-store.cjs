@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=require("../node_modules/zustand/esm/react.cjs").create(e=>({commands:[],appendInput:t=>e(e=>({commands:[...e.commands,{content:t,type:`input`}]})),appendOutput:t=>e(e=>({commands:[...e.commands,{content:t,type:`output`}]})),clearTerminal:()=>e({commands:[]})}));exports.useCommandStore=e;
+//# sourceMappingURL=command-store.cjs.map

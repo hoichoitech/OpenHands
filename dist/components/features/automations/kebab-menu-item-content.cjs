@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs"),t=require("../../../utils/dropdown-classes.cjs");let n=require("react/jsx-runtime");function r({icon:r,label:i}){return(0,n.jsxs)(`span`,{className:`flex min-w-0 w-full items-center gap-2`,children:[(0,n.jsx)(`span`,{className:e.cn(`[&_svg]:size-4`,t.dropdownMenuRowIconWrapperClassName),"aria-hidden":!0,children:r}),(0,n.jsx)(`span`,{className:`min-w-0 flex-1 truncate`,children:i})]})}exports.KebabMenuItemContent=r;
+//# sourceMappingURL=kebab-menu-item-content.cjs.map

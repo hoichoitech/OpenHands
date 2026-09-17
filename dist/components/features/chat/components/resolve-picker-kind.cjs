@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");function e({isLoadingHistory:e,hasUserEvents:t,hasPendingUserMessages:n,hasSubstantiveAgentActions:r,hasModelEntries:i}){return e||t||n||r||i}function t({isAcp:e}){return e?`model`:`llm-profile`}exports.hasConversationStarted=e,exports.resolvePickerKind=t;
+//# sourceMappingURL=resolve-picker-kind.cjs.map

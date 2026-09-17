@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../node_modules/zustand/esm/react.cjs");var t=new Set,n=e.create()(e=>({freeModels:t,defaultModel:null,defaultModelReady:!1,setFlags:t=>e({freeModels:t.freeModels,defaultModel:t.defaultModel,defaultModelReady:!0}),markDefaultModelReady:()=>e({defaultModelReady:!0}),resetFlags:()=>e({freeModels:t,defaultModel:null,defaultModelReady:!1})}));exports.useFreeModelsStore=n;
+//# sourceMappingURL=free-models-store.cjs.map

@@ -1,0 +1,2 @@
+require("../../../../../_virtual/_rolldown/runtime.cjs");const e=require("../../conversation-loading.cjs");let t=require("react"),n=require("react/jsx-runtime");function r({onPending:r}){return(0,t.useLayoutEffect)(()=>{r()},[r]),(0,n.jsx)(e.ConversationLoading,{})}exports.SuspensePendingFallback=r;
+//# sourceMappingURL=suspense-pending-fallback.cjs.map

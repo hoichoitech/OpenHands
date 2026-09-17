@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("./query/use-agent-profiles.cjs");function t(){let{data:t,isLoading:n}=e.useAgentProfiles(),r=t?.active_agent_profile_id??null;return{activeProfile:t?.profiles?.find(e=>e.id!=null&&e.id===r)??null,isLoading:n}}function n(){let{activeProfile:e}=t();return e?.agent_kind}exports.useActiveAgentKind=n,exports.useActiveAgentProfile=t;
+//# sourceMappingURL=use-active-agent-profile.cjs.map

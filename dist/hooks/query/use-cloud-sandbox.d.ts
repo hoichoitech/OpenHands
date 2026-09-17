@@ -1,0 +1,1 @@
+export declare const useCloudSandbox: (sandboxId: string | null | undefined) => import("@tanstack/react-query").UseQueryResult<NoInfer<import("../../api/cloud/sandbox-service.types").V1SandboxInfo | null>, import("axios").AxiosError<unknown, any>>;

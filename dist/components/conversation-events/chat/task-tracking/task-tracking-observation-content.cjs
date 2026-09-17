@@ -1,0 +1,2 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs"),t=require("./task-list-section.cjs");let n=require("react");n=e.__toESM(n,1);let r=require("react/jsx-runtime");function i({event:e}){let{observation:n}=e,{command:i,task_list:a}=n;return(0,r.jsx)(`div`,{className:`flex flex-col gap-4`,children:i===`plan`&&a.length>0&&(0,r.jsx)(t.TaskListSection,{taskList:a})})}exports.TaskTrackingObservationContent=i;
+//# sourceMappingURL=task-tracking-observation-content.cjs.map

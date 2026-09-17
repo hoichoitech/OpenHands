@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../node_modules/zustand/esm/react.cjs");var t={url:``,screenshotSrc:``},n=e.create(e=>({...t,setUrl:t=>e({url:t}),setScreenshotSrc:t=>e({screenshotSrc:t}),reset:()=>e(t)}));exports.useBrowserStore=n;
+//# sourceMappingURL=browser-store.cjs.map

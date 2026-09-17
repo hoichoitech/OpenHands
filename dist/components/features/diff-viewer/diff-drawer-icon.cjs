@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../node_modules/react-icons/lu/index.cjs");let t=require("react/jsx-runtime");function n(){return(0,t.jsx)(e.LuFileDiff,{"aria-hidden":!0,className:`size-full`})}exports.DiffDrawerIcon=n;
+//# sourceMappingURL=diff-drawer-icon.cjs.map

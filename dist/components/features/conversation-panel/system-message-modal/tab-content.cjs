@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("./system-message-content.cjs"),t=require("./tools-list.cjs"),n=require("./empty-tools-state.cjs");let r=require("react/jsx-runtime");function i({activeTab:i,systemMessage:a,expandedTools:o,onToggleTool:s}){return i===`system`?(0,r.jsx)(e.SystemMessageContent,{content:a.content}):i===`tools`?a.tools&&a.tools.length>0?(0,r.jsx)(t.ToolsList,{tools:a.tools,expandedTools:o,onToggleTool:s}):(0,r.jsx)(n.EmptyToolsState,{}):null}exports.TabContent=i;
+//# sourceMappingURL=tab-content.cjs.map

@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=/^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/;function t(t,{isRequired:n=!1}={}){return t===``?!n:e.test(t)}exports.isProfileNameValid=t;
+//# sourceMappingURL=derive-profile-name.cjs.map

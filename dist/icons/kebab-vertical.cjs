@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t);let n=require("react/jsx-runtime");var r=e=>(0,n.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,fill:`currentColor`,viewBox:`0 0 20 20`,...e,children:(0,n.jsx)(`path`,{d:`M10 6a2 2 0 110-4 2 2 0 010 4zm0 6a2 2 0 110-4 2 2 0 010 4zm0 6a2 2 0 110-4 2 2 0 010 4z`})});exports.default=r;
+//# sourceMappingURL=kebab-vertical.cjs.map

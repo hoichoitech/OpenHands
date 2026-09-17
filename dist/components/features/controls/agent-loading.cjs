@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../node_modules/lucide-react/dist/esm/icons/loader-circle.cjs");let t=require("react/jsx-runtime");function n(){return(0,t.jsx)(`div`,{"data-testid":`agent-loading-spinner`,children:(0,t.jsx)(e.LoaderCircle,{className:`animate-spin w-4 h-4 text-current`})})}exports.AgentLoading=n;
+//# sourceMappingURL=agent-loading.cjs.map

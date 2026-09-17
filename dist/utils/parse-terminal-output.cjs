@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=`[Python Interpreter: `,t=t=>{let n=t.indexOf(e);if(n<0)return t;let r=n+21;return t.indexOf(`]`,r)<=r?t:t.substring(0,n).trim()};exports.parseTerminalOutput=t;
+//# sourceMappingURL=parse-terminal-output.cjs.map

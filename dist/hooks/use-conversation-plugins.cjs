@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("./use-conversation-id.cjs"),t=require("../api/conversation-metadata-store.cjs");let n=require("react");function r(){let{conversationId:r}=e.useOptionalConversationId();return(0,n.useMemo)(()=>r?t.getStoredConversationMetadata(r)?.plugins??[]:[],[r])}exports.useConversationPlugins=r;
+//# sourceMappingURL=use-conversation-plugins.cjs.map

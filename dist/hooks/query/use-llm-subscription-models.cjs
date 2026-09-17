@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("./query-keys.cjs"),t=require("../../node_modules/@tanstack/react-query/build/modern/useQuery.cjs"),n=require("../../api/llm-subscription-service.cjs");function r({enabled:r=!0}={}){return t.useQuery({queryKey:e.LLM_SUBSCRIPTION_QUERY_KEYS.openaiModels,queryFn:n.default.getOpenAIModels,enabled:r,retry:!1,refetchOnWindowFocus:!1,staleTime:1e3*60*5,meta:{disableToast:!0}})}exports.useOpenAISubscriptionModels=r;
+//# sourceMappingURL=use-llm-subscription-models.cjs.map

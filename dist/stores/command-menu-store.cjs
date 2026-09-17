@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=require("../node_modules/zustand/esm/react.cjs").create(e=>({isOpen:!1,open:()=>e({isOpen:!0}),close:()=>e({isOpen:!1}),toggle:()=>e(e=>({isOpen:!e.isOpen}))}));exports.useCommandMenuStore=e;
+//# sourceMappingURL=command-menu-store.cjs.map

@@ -1,0 +1,9 @@
+import "../../../../utils/utils.js";
+import "../../../../utils/dropdown-classes.js";
+import "../../../../icons/u-check-circle.js";
+import "../../../../icons/u-edit.js";
+import "../../../../icons/u-delete.js";
+import "./profile-actions-menu-item.js";
+import "react";
+import "react/jsx-runtime";
+import "react-dom";

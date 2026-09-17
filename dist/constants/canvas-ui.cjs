@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=`canvas_ui`,t=`canvas_ui_control`,n=`ClientAction_${t}`;exports.CANVAS_UI_CLIENT_ACTION_KIND=n,exports.CANVAS_UI_CLIENT_TOOL_NAME=t,exports.LEGACY_CANVAS_UI_TOOL_NAME=e;
+//# sourceMappingURL=canvas-ui.cjs.map

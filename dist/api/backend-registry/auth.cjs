@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");function e(e){return e.kind===`cloud`&&e.authMode===`cookie`||!e.apiKey?{}:e.kind===`cloud`?{Authorization:`Bearer ${e.apiKey}`}:{"X-Session-API-Key":e.apiKey}}exports.buildAuthHeaders=e;
+//# sourceMappingURL=auth.cjs.map

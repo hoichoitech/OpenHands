@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../package.cjs");var t=`agent_canvas`,n=e.default.version,r=`X-OpenHands-Client`,i=`X-OpenHands-Client-Version`,a=`X-OpenHands-Telemetry-Distinct-Id`,o={[r]:t,[i]:n};exports.AGENT_CANVAS_CLIENT_HEADERS=o,exports.AGENT_CANVAS_CLIENT_SOURCE=t,exports.AGENT_CANVAS_CLIENT_VERSION=n,exports.OPENHANDS_TELEMETRY_DISTINCT_ID_HEADER=a;
+//# sourceMappingURL=client-source.cjs.map

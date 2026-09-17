@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/agent-server/type-guards.cjs"),t=require("./redact-custom-secrets.cjs");function n(n){let r=n.find(e.isSystemPromptEvent);if(!r)return null;let i=r.dynamic_context?.text;return{content:i?`${r.system_prompt.text.trimEnd()}\n\n${t.redactCustomSecrets(i)}`:r.system_prompt.text,tools:r.tools??null,openhands_version:null,agent_class:null}}exports.adaptSystemMessage=n;
+//# sourceMappingURL=system-message-adapter.cjs.map

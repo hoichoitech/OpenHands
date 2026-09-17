@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=(...e)=>e.find(e=>typeof e==`boolean`),t=(...e)=>e.find(e=>typeof e==`number`),n=(...e)=>{for(let t of e){if(typeof t==`string`)return t;if(t===null)return null}};exports.pickFirstBoolean=e,exports.pickFirstNumber=t,exports.pickNullableString=n;
+//# sourceMappingURL=settings-value-pickers.cjs.map

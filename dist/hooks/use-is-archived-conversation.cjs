@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("./query/use-active-conversation.cjs"),t=require("../utils/conversation-archive-status.cjs");function n(){let{data:n}=e.useActiveConversation();return t.isArchivedSandboxStatus(n?.sandbox_status)}exports.useIsArchivedConversation=n;
+//# sourceMappingURL=use-is-archived-conversation.cjs.map

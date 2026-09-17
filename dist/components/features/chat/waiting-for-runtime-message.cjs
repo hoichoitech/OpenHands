@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../conversation-panel/runtime-waiting-state.cjs");let t=require("react/jsx-runtime");function n({className:n,testId:r}){return(0,t.jsx)(e.RuntimeWaitingState,{testId:r,className:n})}exports.WaitingForRuntimeMessage=n;
+//# sourceMappingURL=waiting-for-runtime-message.cjs.map

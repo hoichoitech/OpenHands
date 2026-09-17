@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t);let n=require("react/jsx-runtime");var r=e=>(0,n.jsx)(`svg`,{width:66,height:66,viewBox:`0 0 66 66`,fill:`none`,xmlns:`http://www.w3.org/2000/svg`,...e,children:(0,n.jsx)(`path`,{d:`M63 33C63 16.4315 49.5685 3 33 3C16.4315 3 3 16.4315 3 33C3 49.5685 16.4315 63 33 63`,stroke:`currentColor`,strokeWidth:6,strokeLinecap:`round`})});exports.default=r;
+//# sourceMappingURL=loading-outer.cjs.map

@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../../utils/utils.cjs");let t=require("react/jsx-runtime");function n({label:n,value:r,labelClassName:i=``,valueClassName:a=`font-semibold`,showBorder:o=!0}){return(0,t.jsxs)(`div`,{className:e.cn(`flex justify-between items-center pb-2`,o&&`border-b border-[var(--oh-border-subtle)]`),children:[(0,t.jsx)(`span`,{className:i,children:n}),(0,t.jsx)(`span`,{className:a,children:r})]})}exports.MetricRow=n;
+//# sourceMappingURL=metric-row.cjs.map

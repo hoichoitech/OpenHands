@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("./query-keys.cjs"),t=require("../../node_modules/@tanstack/react-query/build/modern/useQuery.cjs"),n=require("../../api/agent-canvas-updates.cjs");function r({enabled:r=!0}={}){return t.useQuery({queryKey:e.APP_UPDATE_QUERY_KEYS.latestVersion,queryFn:({signal:e})=>n.fetchLatestAgentCanvasVersion(e),enabled:r,retry:!1,refetchOnWindowFocus:!1,staleTime:1e3*60*60,meta:{disableToast:!0}})}exports.useLatestAgentCanvasVersion=r;
+//# sourceMappingURL=use-latest-agent-canvas-version.cjs.map

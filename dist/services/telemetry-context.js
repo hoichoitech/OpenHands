@@ -1,0 +1,27 @@
+function e(e) {
+	return e?.trim() || "unknown";
+}
+function t(e) {
+	return e?.trim() || null;
+}
+function n({ backendKind: t, agentServerVersion: n, automationSdkVersion: r, backendVersion: i, connectionMethod: a }) {
+	let o = e(n ?? i), s = e(r), c = e(i ?? n);
+	return {
+		backend_kind: t ?? null,
+		agent_server_version: o,
+		automation_sdk_version: s,
+		backend_version: c,
+		...a ? { connection_method: a } : {}
+	};
+}
+function r(e = null) {
+	return {
+		cloud_user_id: t(e?.userId),
+		cloud_user_email: t(e?.email),
+		cloud_org_id: t(e?.orgId)
+	};
+}
+//#endregion
+export { n as getBackendTelemetryProperties, r as getCloudTelemetryProperties };
+
+//# sourceMappingURL=telemetry-context.js.map

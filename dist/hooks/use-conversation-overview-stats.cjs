@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("./use-conversation-id.cjs"),t=require("../api/conversation-metadata-store.cjs"),n=require("./query/use-active-conversation.cjs");function r(e){return e?e.replace(/\/+$/,``).split(`/`).pop()||e:null}function i(){let{conversationId:i}=e.useConversationId(),{data:a}=n.useActiveConversation();return{workspaceName:r((i?t.getStoredConversationMetadata(i):null)?.selected_workspace??a?.selected_workspace??null)}}exports.useConversationOverviewStats=i;
+//# sourceMappingURL=use-conversation-overview-stats.cjs.map

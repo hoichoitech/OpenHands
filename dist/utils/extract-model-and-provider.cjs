@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=e=>{let[t,...n]=e.split(`/`);return!t||n.length===0?{provider:``,model:e,separator:``}:{provider:t,model:n.join(`/`),separator:`/`}};exports.extractModelAndProvider=e;
+//# sourceMappingURL=extract-model-and-provider.cjs.map

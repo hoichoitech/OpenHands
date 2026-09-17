@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs"),t=require("../../../utils/dropdown-classes.cjs");var n=e.cn(`z-50 flex flex-col rounded-md border border-[var(--oh-border-subtle)] bg-tertiary px-1 py-1 text-white shadow-lg`,t.dropdownMenuListGapClassName);exports.NEW_CONVERSATION_DROPDOWN_SURFACE=n;
+//# sourceMappingURL=new-conversation-dropdown-styles.cjs.map

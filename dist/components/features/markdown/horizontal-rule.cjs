@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({...e}){return(0,n.jsx)(`hr`,{...e,className:`my-4 border-0 border-t border-[var(--oh-border)]`})}exports.hr=r;
+//# sourceMappingURL=horizontal-rule.cjs.map

@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("./suggestion-item.cjs");let t=require("react/jsx-runtime");function n({suggestions:n,onSuggestionClick:r}){return(0,t.jsx)(`div`,{"data-testid":`suggestions`,className:`grid grid-cols-2 gap-5 max-w-fit`,children:n.map((n,i)=>(0,t.jsx)(e.SuggestionItem,{suggestion:n,onClick:r},i))})}exports.Suggestions=n;
+//# sourceMappingURL=suggestions.cjs.map

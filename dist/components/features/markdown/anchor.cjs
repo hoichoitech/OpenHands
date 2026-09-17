@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({href:e,children:t}){return(0,n.jsx)(`a`,{className:`text-blue-500 hover:underline`,href:e,target:`_blank`,rel:`noopener noreferrer`,children:t})}exports.anchor=r;
+//# sourceMappingURL=anchor.cjs.map

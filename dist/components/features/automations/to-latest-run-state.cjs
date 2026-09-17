@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs"),require("../../../manifests/automation-insights.cjs");var e={latestRun:null,recentRuns:[],isLoading:!1,isError:!1};function t(t){return t?{latestRun:t.summary?.latestRun??null,recentRuns:t.summary?.recentRuns??[],total:t.summary?.total,isLoading:t.isLoading,isError:t.isError}:e}exports.toLatestRunState=t;
+//# sourceMappingURL=to-latest-run-state.cjs.map

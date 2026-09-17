@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/action-type.cjs");var t=t=>({action:e.default.CHANGE_AGENT_STATE,args:{agent_state:t}});exports.generateAgentStateChangeEvent=t;
+//# sourceMappingURL=agent-state-service.cjs.map

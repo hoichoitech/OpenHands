@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs");let t=require("react/jsx-runtime");function n({className:n}){return(0,t.jsx)(`div`,{className:e.cn(`border-t border-[var(--oh-border-subtle)] w-full`,n)})}exports.SettingsNavDivider=n;
+//# sourceMappingURL=settings-nav-divider.cjs.map

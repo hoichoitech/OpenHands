@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");let e=require("react");var t=1024;function n(n=t){let[r,i]=(0,e.useState)(()=>window.innerWidth<=n),a=(0,e.useRef)(r);return(0,e.useEffect)(()=>{function e(){let e=window.innerWidth<=n;e!==a.current&&(a.current=e,i(e))}return window.addEventListener(`resize`,e),()=>window.removeEventListener(`resize`,e)},[n]),r}exports.useBreakpoint=n;
+//# sourceMappingURL=use-breakpoint.cjs.map

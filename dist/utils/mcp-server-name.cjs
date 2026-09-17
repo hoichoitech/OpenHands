@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=/^[a-zA-Z0-9_-]+$/;function t(t){return e.test(t)}function n(e,t=`mcp`){return e.trim().replace(/[^a-zA-Z0-9_-]+/g,`_`).replace(/_+/g,`_`).replace(/^_+|_+$/g,``)||t}exports.MCP_SERVER_NAME_PATTERN=e,exports.isValidMcpServerName=t,exports.toMcpServerName=n;
+//# sourceMappingURL=mcp-server-name.cjs.map

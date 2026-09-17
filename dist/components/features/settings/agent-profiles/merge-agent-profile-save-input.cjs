@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");function e(e,t){if(!e||e.agent_kind!==t.agent_kind)return t;let{id:n,name:r,revision:i,...a}=e;return{...a,...t}}exports.mergeAgentProfileSaveInput=e;
+//# sourceMappingURL=merge-agent-profile-save-input.cjs.map

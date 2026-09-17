@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t(){return(0,e.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,e.jsx)(`div`,{className:`w-[48px] h-[24px] skeleton-round`}),(0,e.jsx)(`div`,{className:`w-[100px] h-[20px] skeleton`})]})}exports.SwitchSkeleton=t;
+//# sourceMappingURL=switch-skeleton.cjs.map

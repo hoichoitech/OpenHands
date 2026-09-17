@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t(){return(0,e.jsx)(`div`,{className:`flex justify-center items-center py-8`,children:(0,e.jsx)(`div`,{className:`animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-white`})})}exports.HooksLoadingState=t;
+//# sourceMappingURL=hooks-loading-state.cjs.map

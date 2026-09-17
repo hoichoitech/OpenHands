@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../shared/buttons/styled-tooltip.cjs");let t=require("react/jsx-runtime");function n({children:n,tooltip:r,ariaLabel:i}){return(0,t.jsx)(e.StyledTooltip,{content:r,placement:`bottom`,tooltipClassName:`bg-white text-black text-xs font-medium leading-5`,children:(0,t.jsx)(`span`,{"data-aria-label":i,children:n})})}exports.ChatActionTooltip=n;
+//# sourceMappingURL=chat-action-tooltip.cjs.map

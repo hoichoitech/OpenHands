@@ -1,0 +1,1 @@
+require("../../_virtual/_rolldown/runtime.cjs"),require("../../api/backend-registry/active-store.cjs"),require("../../api/profiles-service/profiles-service.api.cjs"),require("../../api/settings-service/settings-service.api.cjs");

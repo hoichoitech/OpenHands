@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=require("../node_modules/zustand/esm/react.cjs").create(e=>({count:0,bump:()=>e(e=>({count:e.count+1}))}));function t(e,t){return e===null?null:`${e}${e.includes(`?`)?`&`:`?`}v=${t}`}exports.useWorkspaceMutationCounter=e,exports.withWorkspaceCacheBuster=t;
+//# sourceMappingURL=use-workspace-mutation-counter.cjs.map

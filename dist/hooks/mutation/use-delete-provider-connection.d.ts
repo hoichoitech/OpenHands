@@ -1,0 +1,1 @@
+export declare function useDeleteProviderConnection(): import("@tanstack/react-query").UseMutationResult<import("#/api/provider-connections-service/provider-connections-service.api").ProviderConnection, import("axios").AxiosError<unknown, any>, string, unknown>;

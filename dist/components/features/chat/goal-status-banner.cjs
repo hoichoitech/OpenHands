@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../stores/goal-store.cjs"),t=require("./goal-status-content.cjs");let n=require("react/jsx-runtime");function r({conversationId:r}){let i=e.useGoalStore(e=>e.statusByConversation),a=r?i[r]:void 0;return a?.active?(0,n.jsx)(t.GoalStatusContent,{status:a}):null}exports.GoalStatusBanner=r;
+//# sourceMappingURL=goal-status-banner.cjs.map

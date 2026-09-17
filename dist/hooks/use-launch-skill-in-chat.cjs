@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../context/navigation-context.cjs"),t=require("../stores/conversation-store.cjs");let n=require("react");function r(){let{navigate:r}=e.useNavigation(),i=t.useConversationStore(e=>e.setMessageToSend);return(0,n.useCallback)((e,t)=>{t?.(),r(`/conversations`),window.setTimeout(()=>{i(e)},0)},[r,i])}exports.useLaunchSkillInChat=r;
+//# sourceMappingURL=use-launch-skill-in-chat.cjs.map

@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");function e(e){if(!e)return null;try{let t=new URL(e);return t.hostname===`localhost`&&window.location.hostname!==`localhost`?(t.hostname=window.location.hostname,t.toString()):e}catch{return e}}exports.transformVSCodeUrl=e;
+//# sourceMappingURL=vscode-url-helper.cjs.map

@@ -1,0 +1,2 @@
+const e=require("../_virtual/_rolldown/runtime.cjs"),t=require("./query/use-settings.cjs"),n=require("../utils/convert-raw-providers-to-list.cjs");let r=require("react");r=e.__toESM(r,1);var i=()=>{let{data:e,isLoading:i}=t.useSettings();return{providers:r.default.useMemo(()=>n.convertRawProvidersToList(e?.provider_tokens_set),[e?.provider_tokens_set]),isLoadingSettings:i}};exports.useUserProviders=i;
+//# sourceMappingURL=use-user-providers.cjs.map

@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../utils/utils.cjs"),t=require("../../../icons/play-solid.cjs");let n=require("react/jsx-runtime");function r({onAgentResumed:r,disabled:i=!1}){return(0,n.jsx)(`button`,{type:`button`,onClick:r,"data-testid":`play-button`,disabled:i,className:e.cn(`cursor-pointer`,i&&`cursor-not-allowed`),children:(0,n.jsx)(t.default,{className:`block max-w-none w-4 h-4 text-current`})})}exports.ChatResumeAgentButton=r;
+//# sourceMappingURL=chat-play-button.cjs.map

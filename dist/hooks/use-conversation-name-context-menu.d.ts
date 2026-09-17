@@ -1,0 +1,46 @@
+import React from "react";
+import { SystemMessageForModal } from "#/utils/system-message-adapter";
+import { ExecutionStatus } from "#/types/agent-server/core/base/common";
+interface UseConversationNameContextMenuProps {
+    conversationId?: string;
+    executionStatus?: ExecutionStatus | null;
+    showOptions?: boolean;
+    onContextMenuToggle?: (isOpen: boolean) => void;
+}
+export declare function useConversationNameContextMenu({ conversationId, executionStatus, showOptions, onContextMenuToggle, }: UseConversationNameContextMenuProps): {
+    handleDelete: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleStop: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleEdit: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleDownloadConversation: (event: React.MouseEvent<HTMLButtonElement>) => Promise<void>;
+    handleDisplayCost: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleShowAgentTools: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleShowSkills: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleShowPlugins: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleShowHooks: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    handleTogglePublic: (nextIsPublic?: boolean) => void;
+    handleCopyShareLink: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    shareUrl: string;
+    handleConfirmDelete: () => void;
+    handleConfirmStop: () => void;
+    systemModalVisible: boolean;
+    setSystemModalVisible: React.Dispatch<React.SetStateAction<boolean>>;
+    skillsModalVisible: boolean;
+    setSkillsModalVisible: React.Dispatch<React.SetStateAction<boolean>>;
+    pluginsModalVisible: boolean;
+    setPluginsModalVisible: React.Dispatch<React.SetStateAction<boolean>>;
+    hooksModalVisible: boolean;
+    setHooksModalVisible: React.Dispatch<React.SetStateAction<boolean>>;
+    confirmDeleteModalVisible: boolean;
+    setConfirmDeleteModalVisible: React.Dispatch<React.SetStateAction<boolean>>;
+    confirmStopModalVisible: boolean;
+    setConfirmStopModalVisible: React.Dispatch<React.SetStateAction<boolean>>;
+    systemMessage: SystemMessageForModal | null;
+    shouldShowStop: boolean;
+    shouldShowDownloadConversation: boolean;
+    shouldShowDisplayCost: boolean;
+    shouldShowAgentTools: boolean;
+    shouldShowSkills: boolean;
+    shouldShowPlugins: boolean;
+    shouldShowHooks: boolean;
+};
+export {};

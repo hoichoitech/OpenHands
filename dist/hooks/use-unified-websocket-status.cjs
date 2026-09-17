@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../contexts/conversation-websocket-context.cjs");function t(){let t=e.useConversationWebSocket();return t?t.connectionState:`CLOSED`}function n(){let t=e.useConversationWebSocket();return t?t.mainConnectionState:`CLOSED`}exports.useMainWebSocketStatus=n,exports.useUnifiedWebSocketStatus=t;
+//# sourceMappingURL=use-unified-websocket-status.cjs.map

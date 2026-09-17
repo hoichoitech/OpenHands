@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../node_modules/react-i18next/dist/es/useTranslation.cjs"),t=require("../../../i18n/declaration.cjs");let n=require("react/jsx-runtime");function r({src:r}){let{t:i}=e.useTranslation(`openhands`);return(0,n.jsx)(`img`,{src:r,className:`block w-full h-auto`,alt:i(t.I18nKey.BROWSER$SCREENSHOT_ALT)})}exports.BrowserSnapshot=r;
+//# sourceMappingURL=browser-snapshot.cjs.map

@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("./use-switch-llm-profile.cjs");let t=require("react");function n(){let{mutate:n,isPending:r}=e.useSwitchLlmProfile();return{switchAndLog:(0,t.useCallback)((e,t)=>{n({conversationId:e,profileName:t})},[n]),isPending:r}}exports.useSwitchLlmProfileAndLog=n;
+//# sourceMappingURL=use-switch-llm-profile-and-log.cjs.map

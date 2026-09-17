@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");function e(e){return e?Array.isArray(e)?e.join(`, `):e:`—`}var t=`JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC`,n=`SUN|MON|TUE|WED|THU|FRI|SAT`;RegExp(`^(?:${t})(?:-(?:${t}))?(?:/\\d+)?$`,`i`),RegExp(`^(?:(?:${n}|\\d+)(?:-(?:${n}|\\d+))?(?:/\\d+)?(?:#\\d+)?|\\?)$`,`i`),exports.formatEventOn=e;
+//# sourceMappingURL=automation-schedule.cjs.map

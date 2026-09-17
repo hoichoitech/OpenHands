@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../node_modules/@openhands/typescript-client/dist/client/device-flow-client.cjs"),t=require("./client-source.cjs");function n(n){return e.startDeviceFlow(n,{headers:t.AGENT_CANVAS_CLIENT_HEADERS})}function r(n,r,i){return e.pollForToken(n,r,{...i,headers:t.AGENT_CANVAS_CLIENT_HEADERS})}exports.pollForToken=r,exports.startDeviceFlow=n;
+//# sourceMappingURL=device-flow-client.cjs.map

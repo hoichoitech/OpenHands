@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");var e={duration:.2,ease:`easeInOut`};function t(e){return e>=596}exports.CONVERSATION_OVERVIEW_PANEL_TRANSITION=e,exports.hasEnoughOverviewLayoutSpace=t;
+//# sourceMappingURL=conversation-overview-panel.constants.cjs.map

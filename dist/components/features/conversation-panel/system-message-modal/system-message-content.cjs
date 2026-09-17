@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../../ui/pre.cjs");let t=require("react/jsx-runtime");function n({content:n}){return(0,t.jsx)(e.Pre,{size:`small`,font:`mono`,lineHeight:`relaxed`,padding:`medium`,className:`text-[var(--oh-text-tertiary)]`,children:n})}exports.SystemMessageContent=n;
+//# sourceMappingURL=system-message-content.cjs.map

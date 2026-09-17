@@ -1,0 +1,2 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({fileInputRef:e,onChange:t}){return(0,n.jsx)(`input`,{type:`file`,ref:e,multiple:!0,accept:`*/*`,className:`hidden`,onChange:t,"data-testid":`upload-image-input`})}exports.HiddenFileInput=r;
+//# sourceMappingURL=hidden-file-input.cjs.map

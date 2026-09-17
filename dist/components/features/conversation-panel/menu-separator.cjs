@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../ui/divider.cjs");let t=require("react/jsx-runtime");function n(){return(0,t.jsx)(e.Divider,{inset:`menu`})}exports.MenuSeparator=n;
+//# sourceMappingURL=menu-separator.cjs.map

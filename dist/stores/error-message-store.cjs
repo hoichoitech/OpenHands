@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../node_modules/zustand/esm/react.cjs");var t={errorMessage:null,errorType:null,errorCode:null,errorClassification:null},n=e.create(e=>({...t,setErrorMessage:(t,n=`conversation`,r=null,i=null)=>e(()=>({errorMessage:t,errorType:n,errorCode:r,errorClassification:i})),removeErrorMessage:()=>e(()=>({...t})),clearConnectionError:()=>e(e=>e.errorType===`connection`?{...t}:e)}));exports.useErrorMessageStore=n;
+//# sourceMappingURL=error-message-store.cjs.map

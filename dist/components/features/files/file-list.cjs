@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs"),t=require("../../../utils/utils.cjs"),n=require("./file-item.cjs");let r=require("react");r=e.__toESM(r,1);let i=require("react/jsx-runtime");function a({files:e,onRemove:r}){return(0,i.jsx)(`div`,{"data-testid":`file-list`,className:t.cn(`flex flex-col gap-y-1.5 justify-start`),children:e.map((e,t)=>(0,i.jsx)(n.FileItem,{filename:e,onRemove:r?()=>r?.(t):void 0},t))})}exports.FileList=a;
+//# sourceMappingURL=file-list.cjs.map

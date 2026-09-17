@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../context/navigation-context.cjs");function t(){let{conversationId:t}=e.useNavigation();return{conversationId:t}}function n(){let{conversationId:e}=t();if(!e)throw Error(`useConversationId must be used within a route that has a conversationId parameter`);return{conversationId:e}}exports.useConversationId=n,exports.useOptionalConversationId=t;
+//# sourceMappingURL=use-conversation-id.cjs.map

@@ -1,0 +1,3 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/agent-server/type-guards.cjs");var t=/^✅ Successfully installed '([^']+)' to (.+)$/m;function n(n){let r=new Map;for(let i of n){if(!e.isExecuteBashObservationEvent(i))continue;let n=i.observation.content.filter(e=>e.type===`text`).map(e=>e.text).join(`
+`).match(t);if(!n)continue;let a=n[1],o=n[2].replace(/\\/g,`/`).replace(/\/+$/,``),s=`/.agents/skills/${a}`;if(!o.endsWith(s))continue;let c=o.slice(0,-s.length);if(!c)continue;let l=`${c}::${a}`;r.delete(l),r.set(l,{eventId:i.id,skillName:a,workspacePath:c})}return[...r.values()]}exports.detectSkillInstalls=n;
+//# sourceMappingURL=skill-install-events.cjs.map

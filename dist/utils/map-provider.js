@@ -1,0 +1,37 @@
+//#region src/utils/map-provider.ts
+var e = {
+	openai: "OpenAI",
+	azure: "Azure",
+	azure_ai: "Azure AI Studio",
+	vertex_ai: "VertexAI",
+	palm: "PaLM",
+	gemini: "Gemini",
+	anthropic: "Anthropic",
+	sagemaker: "AWS SageMaker",
+	bedrock: "AWS Bedrock",
+	mistral: "Mistral AI",
+	anyscale: "Anyscale",
+	databricks: "Databricks",
+	ollama: "Ollama",
+	perlexity: "Perplexity AI",
+	friendliai: "FriendliAI",
+	groq: "Groq",
+	fireworks_ai: "Fireworks AI",
+	cloudflare: "Cloudflare Workers AI",
+	deepinfra: "DeepInfra",
+	ai21: "AI21",
+	replicate: "Replicate",
+	voyage: "Voyage AI",
+	openrouter: "OpenRouter",
+	openhands: "OpenHands",
+	lemonade: "Lemonade",
+	clarifai: "Clarifai",
+	moonshot: "Moonshot"
+}, t = (t) => Object.keys(e).includes(t) ? e[t] : t, n = (t) => {
+	let n = Object.entries(e).find(([, e]) => e === t);
+	return n ? n[0] : t;
+};
+//#endregion
+export { n as getProviderId, t as mapProvider };
+
+//# sourceMappingURL=map-provider.js.map

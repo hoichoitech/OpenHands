@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../constants/skills-docs.cjs");function t(t){return t.name===`add-skill`?e.ADD_SKILL_EXAMPLE_COMMAND:`/${t.name} `}exports.getSkillChatLaunchMessage=t;
+//# sourceMappingURL=get-skill-chat-launch-message.cjs.map

@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../hooks/use-handle-ws-events.cjs"),t=require("../hooks/use-handle-runtime-active.cjs");function n({children:n}){return e.useHandleWSEvents(),t.useHandleRuntimeActive(),n}exports.EventHandler=n;
+//# sourceMappingURL=event-handler.cjs.map

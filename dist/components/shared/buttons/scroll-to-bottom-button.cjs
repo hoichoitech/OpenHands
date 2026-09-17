@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../icons/arrow-send.cjs");let t=require("react/jsx-runtime");function n({onClick:n}){return(0,t.jsx)(`button`,{type:`button`,onClick:n,"data-testid":`scroll-to-bottom`,className:`flex items-center justify-center size-8 rounded-full bg-[var(--oh-surface)] text-[var(--oh-muted)] hover:bg-tertiary hover:text-white rotate-180 cursor-pointer transition-colors`,children:(0,t.jsx)(e.default,{width:15,height:15})})}exports.ScrollToBottomButton=n;
+//# sourceMappingURL=scroll-to-bottom-button.cjs.map

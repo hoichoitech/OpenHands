@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs");let t=require("react");t=e.__toESM(t,1);let n=require("react/jsx-runtime");function r({children:e}){return(0,n.jsx)(`ul`,{className:`my-2 list-disc ml-5 pl-2 whitespace-normal leading-6`,children:e})}function i({children:e,start:t}){return(0,n.jsx)(`ol`,{className:`my-2 list-decimal ml-5 pl-2 whitespace-normal leading-6`,start:t,children:e})}function a({children:e}){return(0,n.jsx)(`li`,{className:`py-0.5`,children:e})}exports.li=a,exports.ol=i,exports.ul=r;
+//# sourceMappingURL=list.cjs.map

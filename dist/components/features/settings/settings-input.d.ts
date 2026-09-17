@@ -1,0 +1,51 @@
+interface SettingsInputProps {
+    testId?: string;
+    name?: string;
+    label: string;
+    type: React.HTMLInputTypeAttribute;
+    defaultValue?: string;
+    value?: string;
+    placeholder?: string;
+    showOptionalTag?: boolean;
+    isDisabled?: boolean;
+    startContent?: React.ReactNode;
+    className?: string;
+    onChange?: (value: string) => void;
+    onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
+    required?: boolean;
+    min?: number;
+    max?: number;
+    step?: number;
+    pattern?: string;
+    /** Validation message shown when pattern doesn't match */
+    title?: string;
+    labelClassName?: string;
+    /**
+     * The input's accessible name, for the caller that renders the visible label
+     * itself. Only for those: a field labelled by this component reads its label,
+     * and two names would disagree.
+     */
+    ariaLabel?: string;
+    /** ARIA describedby attribute for accessibility */
+    ariaDescribedBy?: string;
+    /** ARIA invalid attribute for accessibility */
+    ariaInvalid?: boolean;
+    /**
+     * Validation error message. When set, the input gets a red border and
+     * the message is rendered below it. Also sets aria-invalid automatically.
+     */
+    error?: string;
+    /** Renders a red asterisk next to the label to mark the field as required. */
+    showRequiredTag?: boolean;
+    /**
+     * Short guidance rendered next to the label, above the input. It sits inside
+     * the `<label>`, so it is announced as part of the field's accessible name —
+     * keep it to a phrase that reads well after the label text.
+     */
+    hint?: string;
+    onBlur?: () => void;
+    /** Extra classes merged onto the `<input>` element. */
+    inputClassName?: string;
+}
+export declare const SettingsInput: import("react").ForwardRefExoticComponent<SettingsInputProps & import("react").RefAttributes<HTMLInputElement>>;
+export {};

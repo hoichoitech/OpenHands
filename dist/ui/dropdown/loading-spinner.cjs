@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t(){return(0,e.jsx)(`div`,{className:`animate-spin h-4 w-4 border-2 border-transparent border-t-white rounded-full`,"data-testid":`dropdown-loading`})}exports.LoadingSpinner=t;
+//# sourceMappingURL=loading-spinner.cjs.map

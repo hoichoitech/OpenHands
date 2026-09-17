@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs"),t=require("../../../utils/utils.cjs");let n=require("react");n=e.__toESM(n,1);let r=require("react/jsx-runtime");function i({height:e,children:n,className:i}){return(0,r.jsx)(`div`,{"data-testid":`editor-container`,className:t.cn(`w-full border-b border-[var(--oh-border)] overflow-hidden h-[var(--editor-height)]`,i),style:{"--editor-height":`${e}px`},children:n})}exports.EditorContainer=i;
+//# sourceMappingURL=editor-container.cjs.map

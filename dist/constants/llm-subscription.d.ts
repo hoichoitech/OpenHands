@@ -1,0 +1,16 @@
+import type { SettingsChoice, SettingsFieldSchema } from "#/types/settings";
+export declare const LLM_AUTH_TYPE_KEY = "llm.auth_type";
+export declare const LLM_SUBSCRIPTION_VENDOR_KEY = "llm.subscription_vendor";
+export declare const LLM_AUTH_TYPE_API_KEY = "api_key";
+export declare const LLM_AUTH_TYPE_SUBSCRIPTION = "subscription";
+export declare const OPENAI_SUBSCRIPTION_VENDOR = "openai";
+export declare const OPENAI_SUBSCRIPTION_MODELS_PATH = "/api/llm/subscription/openai/models";
+export declare const OPENAI_SUBSCRIPTION_STATUS_PATH = "/api/llm/subscription/openai/status";
+export declare const OPENAI_SUBSCRIPTION_DEVICE_START_PATH = "/api/llm/subscription/openai/device/start";
+export declare const OPENAI_SUBSCRIPTION_DEVICE_POLL_PATH = "/api/llm/subscription/openai/device/poll";
+export declare const OPENAI_SUBSCRIPTION_LOGOUT_PATH = "/api/llm/subscription/openai/logout";
+export type LlmAuthType = typeof LLM_AUTH_TYPE_API_KEY | typeof LLM_AUTH_TYPE_SUBSCRIPTION;
+export declare const LLM_AUTH_TYPE_CHOICES: SettingsChoice[];
+export declare const LLM_SUBSCRIPTION_SCHEMA_FIELDS: SettingsFieldSchema[];
+export declare function resolveLlmAuthType(value: unknown): LlmAuthType;
+export declare function isSubscriptionLlmConfig(llm: Record<string, unknown> | null | undefined): boolean;

@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useMutation.cjs"),t=require("../../api/conversation-file-upload.api.cjs"),n=require("../query/use-active-conversation.cjs");var r=()=>{let{data:r}=n.useActiveConversation();return e.useMutation({mutationKey:[`unified-upload-files`],mutationFn:async e=>{let{conversationId:n,files:i}=e;return t.uploadFilesToConversation(n,i,r)},meta:{disableToast:!0}})};exports.useUnifiedUploadFiles=r;
+//# sourceMappingURL=use-unified-upload-files.cjs.map

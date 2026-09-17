@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");function e(e){let t=e?.trim();return t?!!(/^https?:\/\//i.test(t)||t.startsWith(`/`)||t.startsWith(`./`)||t.startsWith(`../`)||t.startsWith(`~`)||/^[A-Za-z]:[\\/]/.test(t)||t.includes(`/`)||t.includes(`\\`)):!1}exports.isCopyableSkillSource=e;
+//# sourceMappingURL=is-copyable-skill-source.cjs.map

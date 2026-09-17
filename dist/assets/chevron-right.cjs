@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t({width:t=20,height:n=20,active:r}){return(0,e.jsx)(`svg`,{width:t,height:n,viewBox:`0 0 ${t} ${n}`,fill:`none`,xmlns:`http://www.w3.org/2000/svg`,children:(0,e.jsx)(`path`,{fillRule:`evenodd`,clipRule:`evenodd`,d:`M8.79602 4.99634L13.3449 10.0001L8.79602 15.0038L7.87109 14.163L11.6556 10.0001L7.87109 5.83718L8.79602 4.99634Z`,fill:r?`var(--oh-text-tertiary)`:`var(--oh-border)`})})}exports.ChevronRight=t;
+//# sourceMappingURL=chevron-right.cjs.map

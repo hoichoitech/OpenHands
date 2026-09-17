@@ -1,0 +1,1 @@
+export declare const useActiveConversation: () => import("@tanstack/react-query").UseQueryResult<NoInfer<import("../../api/conversation-service/agent-server-conversation-service.types").AppConversation | null>, import("axios").AxiosError<unknown, any>>;

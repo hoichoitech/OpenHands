@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("./manifest-validation.cjs");function t(t){let n=[],r=new Map;return t.forEach(t=>{if(!e.hasSetupBlock(t))return;let{valid:i,errors:a}=e.validateSetupEntry(t);if(!i){console.warn(`Rejected a setup manifest:`,a.join(`; `));return}let o=t;if(r.has(o.id)){console.warn(`Rejected a setup manifest: id "${o.id}" is already registered`);return}n.push(o),r.set(o.id,o)}),{entries:n,findById:e=>r.get(e)??null}}exports.createSetupRegistry=t;
+//# sourceMappingURL=manifest-registry.cjs.map

@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");var e={automations:`automations`,skills:`skills`,mcp:`mcp`,secrets:`secrets`,pull_requests:`pull_requests`,issues:`issues`};exports.CONVERSATION_OVERVIEW_DRAWER_SECTION=e;
+//# sourceMappingURL=conversation-overview-drawer.types.cjs.map

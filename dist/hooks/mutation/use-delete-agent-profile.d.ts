@@ -1,0 +1,1 @@
+export declare function useDeleteAgentProfile(): import("@tanstack/react-query").UseMutationResult<import("@openhands/typescript-client").AgentProfileMutationResponse, import("axios").AxiosError<unknown, any>, string, unknown>;

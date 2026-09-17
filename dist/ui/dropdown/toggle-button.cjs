@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../utils/utils.cjs"),t=require("../combobox-caret.cjs");let n=require("react/jsx-runtime");function r({isOpen:r,isDisabled:i,getToggleButtonProps:a}){return(0,n.jsx)(`button`,{type:`button`,"data-testid":`dropdown-trigger`,...a({disabled:i,className:e.cn(t.comboboxCaretButtonClassName,`text-current`,r&&`rotate-180`,i&&`cursor-not-allowed`)}),children:(0,n.jsx)(t.ComboboxCaretIcon,{})})}exports.ToggleButton=r;
+//# sourceMappingURL=toggle-button.cjs.map

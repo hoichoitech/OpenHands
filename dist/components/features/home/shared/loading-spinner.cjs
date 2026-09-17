@@ -1,0 +1,2 @@
+const e=require("../../../../_virtual/_rolldown/runtime.cjs"),t=require("../../../../utils/utils.cjs");let n=require("react");n=e.__toESM(n,1);let r=require("react/jsx-runtime");function i({hasSelection:e,testId:n=`dropdown-loading`}){return(0,r.jsx)(`div`,{className:t.cn(`absolute top-1/2 transform -translate-y-1/2`,e?`right-11`:`right-6`),children:(0,r.jsx)(`div`,{className:`animate-spin h-4 w-4 border-2 border-transparent border-t-white rounded-full`,"data-testid":n})})}exports.LoadingSpinner=i;
+//# sourceMappingURL=loading-spinner.cjs.map

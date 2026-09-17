@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=`launch_child_conversation`,t=`ClientAction_${e}`,n=`[child-conversation] `,r=[`local`,`cloud`],i=[`worktree`,`shared`],a=`1.37.1`;exports.CHILD_CONVERSATION_ISOLATIONS=i,exports.CHILD_CONVERSATION_RESULT_PREFIX=n,exports.CHILD_CONVERSATION_TARGETS=r,exports.LAUNCH_CHILD_CONVERSATION_ACTION_KIND=t,exports.LAUNCH_CHILD_CONVERSATION_TOOL_NAME=e,exports.MIN_AGENT_SERVER_VERSION_FOR_PARENT_LINK=a;
+//# sourceMappingURL=child-conversation.cjs.map

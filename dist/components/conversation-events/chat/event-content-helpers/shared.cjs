@@ -1,0 +1,2 @@
+require("../../../../_virtual/_rolldown/runtime.cjs");var e=1e3,t=e=>`\`\`\`json\n${JSON.stringify(e,null,2)}\n\`\`\``;exports.MAX_CONTENT_LENGTH=e,exports.getDefaultEventContent=t;
+//# sourceMappingURL=shared.cjs.map

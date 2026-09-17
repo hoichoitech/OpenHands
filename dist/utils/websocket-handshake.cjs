@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=1e4;function t(t){let n=setTimeout(()=>{t.readyState===WebSocket.CONNECTING&&t.close()},e);return()=>clearTimeout(n)}exports.startHandshakeWatchdog=t;
+//# sourceMappingURL=websocket-handshake.cjs.map

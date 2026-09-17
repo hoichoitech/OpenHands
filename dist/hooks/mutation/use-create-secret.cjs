@@ -1,0 +1,2 @@
+require("../../_virtual/_rolldown/runtime.cjs");const e=require("../../node_modules/@tanstack/react-query/build/modern/useMutation.cjs"),t=require("../../api/secrets-service.cjs");var n=()=>e.useMutation({mutationFn:({name:e,value:n,description:r})=>t.SecretsService.createSecret(e,n,r)});exports.useCreateSecret=n;
+//# sourceMappingURL=use-create-secret.cjs.map

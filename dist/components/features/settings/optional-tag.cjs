@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../node_modules/react-i18next/dist/es/useTranslation.cjs"),t=require("../../../i18n/declaration.cjs");let n=require("react/jsx-runtime");function r(){let{t:r}=e.useTranslation(`openhands`);return(0,n.jsx)(`span`,{className:`text-xs text-tertiary-alt`,children:r(t.I18nKey.COMMON$OPTIONAL)})}exports.OptionalTag=r;
+//# sourceMappingURL=optional-tag.cjs.map

@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../context/navigation-context.cjs"),t=require("../node_modules/@tanstack/react-query/build/modern/useMutationState.cjs");var n=()=>{let n=e.useNavigation(),r=t.useIsMutating({mutationKey:[`create-conversation`]}),{isNavigating:i}=n;return r>0||i};exports.useIsCreatingConversation=n;
+//# sourceMappingURL=use-is-creating-conversation.cjs.map

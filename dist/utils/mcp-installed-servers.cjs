@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("./mcp-config.cjs");function t(t){return Object.entries(t).map(([t,n])=>n.transport===`stdio`?{id:t,type:`stdio`,name:t,command:n.command,args:n.args??void 0,env:n.env??void 0,enabled:e.getMcpServerEnabled(n)}:{id:t,type:n.transport===`sse`?`sse`:`shttp`,name:t,url:n.url,headers:n.headers??void 0,timeout:n.timeout??void 0,auth:n.auth??void 0,enabled:e.getMcpServerEnabled(n)})}exports.flattenMcpConfig=t;
+//# sourceMappingURL=mcp-installed-servers.cjs.map

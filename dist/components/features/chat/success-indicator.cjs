@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("../../../node_modules/react-icons/fa/index.cjs");let t=require("react/jsx-runtime");function n({status:n}){return(0,t.jsx)(`span`,{className:`flex-shrink-0`,children:n===`timeout`&&(0,t.jsx)(e.FaClock,{"data-testid":`status-icon`,className:`h-4 w-4 ml-2 inline fill-yellow-500`})})}exports.SuccessIndicator=n;
+//# sourceMappingURL=success-indicator.cjs.map

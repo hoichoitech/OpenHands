@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");const e=require("../types/agent-state.cjs"),t=require("./use-agent-state.cjs");var n=()=>{let{curAgentState:n}=t.useAgentState();return{runtimeActive:!e.RUNTIME_INACTIVE_STATES.includes(n)}};exports.useHandleRuntimeActive=n;
+//# sourceMappingURL=use-handle-runtime-active.cjs.map

@@ -1,0 +1,2 @@
+const e=require("../../../_virtual/_rolldown/runtime.cjs");require("../../../contexts/active-backend-context.cjs"),require("../../../api/canvas-extensions-service.cjs"),require("../../../hooks/query/use-canvas-extensions.cjs");let t=require("react");t=e.__toESM(t,1),require("react/jsx-runtime"),require("react-router");var n={pages:[],activating:!1,errors:new Map},r=t.default.createContext(n);function i(){return t.default.useContext(r)}exports.useCanvasExtensionsRuntime=i;
+//# sourceMappingURL=canvas-extensions-runtime.cjs.map

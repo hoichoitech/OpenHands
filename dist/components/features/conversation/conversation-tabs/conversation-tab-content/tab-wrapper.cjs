@@ -1,0 +1,2 @@
+require("../../../../../_virtual/_rolldown/runtime.cjs");let e=require("react/jsx-runtime");function t({children:t}){return(0,e.jsx)(`div`,{className:`absolute inset-0`,children:t})}exports.TabWrapper=t;
+//# sourceMappingURL=tab-wrapper.cjs.map

@@ -1,0 +1,48 @@
+import type { MarketplacePlugin, LocalPlugin, PluginBundledSkill } from "#/api/plugins-service";
+import type { InstalledPluginInfo } from "#/api/plugins-management-service";
+export type PluginStatusFilter = "all" | "installed" | "available" | "local";
+/**
+ * A single row in the plugins management list, reconciling the dynamic
+ * marketplace catalog with the locally-installed plugins.
+ */
+export interface PluginViewModel {
+    name: string;
+    description: string | null;
+    source: string | null;
+    ref: string | null;
+    repoPath: string | null;
+    /** Installed on the local agent-server. */
+    installed: boolean;
+    /** Enabled (only meaningful when installed); enabled plugins auto-load. */
+    enabled: boolean;
+    /** Installed version, when known. */
+    version: string | null;
+    /** Present in the marketplace catalog. */
+    inCatalog: boolean;
+    /**
+     * Discovered from a local ambient directory (e.g. `~/.agents/plugins`).
+     * Read-only: it auto-loads into conversations and is not installed/managed.
+     */
+    isLocal: boolean;
+    /**
+     * Plugin contents (`skills` bundled in the plugin, `files` relative to
+     * `path`). The three fields travel as a unit from one server response so the
+     * file viewer never joins a base path with another copy's file list; null
+     * when the server has no local copy or predates the contents fields.
+     */
+    path: string | null;
+    skills: PluginBundledSkill[] | null;
+    files: string[] | null;
+}
+/**
+ * Merge the marketplace catalog with the installed plugins into one
+ * de-duplicated list keyed by plugin name. The installed list is the source of
+ * truth for install/enable state and coordinates; the catalog supplies
+ * description/coordinates as a fallback. Installed plugins sort first, then
+ * alphabetically.
+ */
+export declare function buildPluginsViewModel(marketplace: MarketplacePlugin[] | undefined, installed: InstalledPluginInfo[] | undefined, local?: LocalPlugin[] | undefined): PluginViewModel[];
+/** True when the plugin matches a free-text search query (empty query matches). */
+export declare function matchesPluginSearch(plugin: PluginViewModel, query: string): boolean;
+/** True when the plugin matches the install-state filter. */
+export declare function matchesPluginStatus(plugin: PluginViewModel, filter: PluginStatusFilter): boolean;

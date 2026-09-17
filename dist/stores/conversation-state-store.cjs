@@ -1,0 +1,2 @@
+require("../_virtual/_rolldown/runtime.cjs");var e=require("../node_modules/zustand/esm/react.cjs").create(e=>({executionStatusByConversation:{},setExecutionStatus:(t,n)=>e(e=>({executionStatusByConversation:{...e.executionStatusByConversation,[t]:n}})),reset:()=>e({executionStatusByConversation:{}})}));exports.useConversationStateStore=e;
+//# sourceMappingURL=conversation-state-store.cjs.map

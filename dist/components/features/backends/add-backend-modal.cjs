@@ -1,0 +1,2 @@
+require("../../../_virtual/_rolldown/runtime.cjs");const e=require("./backend-form-modal.cjs");let t=require("react/jsx-runtime");function n({onClose:n}){return(0,t.jsx)(e.BackendFormModal,{mode:`add`,onClose:n})}exports.AddBackendModal=n;
+//# sourceMappingURL=add-backend-modal.cjs.map
